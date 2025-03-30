@@ -3,6 +3,8 @@ using Unity.Netcode;
 
 public class ConnectionManager : MonoBehaviour
 {
+    [SerializeField] private GameObject playerPrefab;
+
     private void OnEnable()
     {
         if (NetworkManager.Singleton != null)
@@ -11,7 +13,6 @@ public class ConnectionManager : MonoBehaviour
             NetworkManager.Singleton.OnClientDisconnectCallback += OnClientDisconnected;
         }
     }
-
 
     private void OnDisable()
     {

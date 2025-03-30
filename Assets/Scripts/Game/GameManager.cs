@@ -4,6 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using UnityChess;
 using UnityEngine;
+using Unity.Netcode;
 
 /// <summary>
 /// Manages the overall game state, including game start, moves execution,
@@ -16,6 +17,17 @@ public class GameManager : MonoBehaviourSingleton<GameManager> {
 	public static event Action GameEndedEvent;
 	public static event Action GameResetToHalfMoveEvent;
 	public static event Action MoveExecutedEvent;
+	
+	private Board board
+	{
+    	get
+    	{
+        	game.BoardTimeline.TryGetCurrent(out var b);
+        	return b;
+    	}
+	}
+
+
 	
 	/// <summary>
 	/// Gets the current board state from the game.
@@ -314,20 +326,26 @@ public class GameManager : MonoBehaviourSingleton<GameManager> {
 		// If the move is not a special move or its special behaviour is successfully handled,
 		// and the move executes successfully...
 		if ((move is not SpecialMove specialMove || await TryHandleSpecialMoveBehaviourAsync(specialMove))
-		    && TryExecuteMove(move)
-		) {
-			// For non-special moves, update the board visuals by destroying any piece at the destination.
-			if (move is not SpecialMove) { BoardManager.Instance.TryDestroyVisualPiece(move.End); }
+    	&& TryExecuteMove(move))
+		{
+    		if (move is not SpecialMove)
+    		{
+        		BoardManager.Instance.TryDestroyVisualPiece(move.End, movedPieceTransform.gameObject);
+    		}
 
-			// For promotion moves, update the moved piece transform to the newly created visual piece.
-			if (move is PromotionMove) {
-				movedPieceTransform = BoardManager.Instance.GetPieceGOAtPosition(move.End).transform;
-			}
+    		if (move is PromotionMove)
+    		{
+        		movedPieceTransform = BoardManager.Instance.GetPieceGOAtPosition(move.End)?.transform;
+    		}
 
-			// Re-parent the moved piece to the destination square and update its position.
-			movedPieceTransform.parent = closestBoardSquareTransform;
-			movedPieceTransform.position = closestBoardSquareTransform.position;
+    		// ✅ Fix: Check before accessing destroyed transform
+    		if (movedPieceTransform != null)
+    		{
+        		movedPieceTransform.parent = closestBoardSquareTransform;
+        		movedPieceTransform.position = closestBoardSquareTransform.position;
+    		}
 		}
+
 	}
 	
 	/// <summary>
@@ -338,4 +356,37 @@ public class GameManager : MonoBehaviourSingleton<GameManager> {
 	public bool HasLegalMoves(Piece piece) {
 		return game.TryGetLegalMovesForPiece(piece, out _);
 	}
+
+	[ServerRpc(RequireOwnership = false)]
+	public void RequestMoveServerRpc(string fromSquare, string toSquare, ulong requestingClientId)
+	{
+    	var from = SquareUtil.StringToSquare(fromSquare);
+    	var to = SquareUtil.StringToSquare(toSquare);
+
+    	var piece = board[from];
+    	if (piece == null) return;
+
+    	if (piece.Owner != NetworkPlayer.GetPlayerByClientId(requestingClientId).PlayerSide) return;
+
+    	bool moveValid = game.TryGetLegalMove(from, to, out var move) && TryExecuteMove(move);
+
+    	if (moveValid)
+    	{
+        	UpdateClientsWithBoardClientRpc(GetFEN()); // optional, if needed
+    	}
+	}
+
+	[ClientRpc]
+	public void UpdateClientsWithBoardClientRpc(string fen)
+	{
+    	Debug.Log("Syncing board with FEN: " + fen);
+    	LoadGame(fen);
+	}
+
+	public string GetFEN()
+	{
+    	return new FENSerializer().Serialize(game);
+	}
+
+
 }

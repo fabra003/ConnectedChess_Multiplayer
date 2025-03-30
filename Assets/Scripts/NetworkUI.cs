@@ -6,6 +6,8 @@ public class NetworkUI : MonoBehaviour
 {
     public Button hostButton;
     public Button clientButton;
+    public Button leaveButton;
+    public Button rejoinButton;
 
     private void Start()
     {
@@ -17,12 +19,30 @@ public class NetworkUI : MonoBehaviour
 
         clientButton.onClick.AddListener(() =>
         {
-            NetworkManager.Singleton.StartClient();
-            Debug.Log("Started Client");
+            TryStartClient();
+        });
+
+        leaveButton.onClick.AddListener(() =>
+        {
+            if (NetworkManager.Singleton.IsHost || NetworkManager.Singleton.IsServer)
+            {
+                NetworkManager.Singleton.Shutdown();
+                Debug.Log("Host/Server stopped.");
+            }
+            else if (NetworkManager.Singleton.IsClient)
+            {
+                NetworkManager.Singleton.Shutdown();
+                Debug.Log("Client disconnected.");
+            }
+        });
+
+        rejoinButton.onClick.AddListener(() =>
+        {
+            TryStartClient(); // Just retry connection
         });
     }
 
-    public void TryStartClient()
+    private void TryStartClient()
     {
         bool success = NetworkManager.Singleton.StartClient();
         if (!success)

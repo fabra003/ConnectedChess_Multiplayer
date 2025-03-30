@@ -182,13 +182,17 @@ public class BoardManager : MonoBehaviourSingleton<BoardManager> {
 	/// Destroys the visual representation of a piece at the specified square.
 	/// </summary>
 	/// <param name="position">The board square from which to destroy the piece.</param>
-	public void TryDestroyVisualPiece(Square position) {
-		// Find the VisualPiece component within the square's GameObject.
-		VisualPiece visualPiece = positionMap[position].GetComponentInChildren<VisualPiece>();
-		// If a VisualPiece is found, destroy its GameObject immediately.
-		if (visualPiece != null)
-			DestroyImmediate(visualPiece.gameObject);
+	public void TryDestroyVisualPiece(Square position, GameObject ignore = null)
+	{
+    	var visualPieceGO = positionMap[position].GetComponentInChildren<VisualPiece>()?.gameObject;
+
+    	// Avoid destroying the object being moved (ignore it)
+    	if (visualPieceGO != null && visualPieceGO != ignore)
+    	{
+        	Destroy(visualPieceGO); // Use Destroy, not DestroyImmediate
+    	}
 	}
+
 	
 	/// <summary>
 	/// Retrieves the GameObject representing the piece at the given board square.
