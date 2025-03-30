@@ -21,4 +21,17 @@ public class NetworkUI : MonoBehaviour
             Debug.Log("Started Client");
         });
     }
+
+    public void TryStartClient()
+    {
+        bool success = NetworkManager.Singleton.StartClient();
+        if (!success)
+        {
+            Debug.Log("Client failed to start. Host might not be running.");
+        }
+        else
+        {
+            Debug.Log("Client trying to connect...");
+        }
+    }
 }
