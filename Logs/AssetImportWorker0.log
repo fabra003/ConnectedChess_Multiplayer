@@ -1,0 +1,1502 @@
+Unity Editor version:    2022.3.4f1 (35713cd46cd7)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.3.1 (Build 24D70)
+Darwin version:          24.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/deg/Downloads/UnityChess
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51699
+Successfully changed project path to: /Users/deg/Downloads/UnityChess
+/Users/deg/Downloads/UnityChess
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8386676800] Host "[IP] 192.168.1.120 [Port] 0 [Flags] 2 [Guid] 18800281 [EditorId] 18800281 [Version] 1048832 [Id] OSXEditor(0,Starlink-3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8386676800] Host "[IP] 192.168.1.120 [Port] 0 [Flags] 2 [Guid] 18800281 [EditorId] 18800281 [Version] 1048832 [Id] OSXEditor(0,Starlink-3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 2.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/deg/Downloads/UnityChess/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56269
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002137 seconds.
+- Loaded All Assemblies, in  0.233 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.158 seconds
+Domain Reload Profiling: 391ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (92ms)
+		LoadAssemblies (78ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (90ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (82ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (158ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (119ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.321 seconds
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.194 seconds
+Domain Reload Profiling: 516ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (93ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (195ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (114ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (22ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 778 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (45.9 KB). Loaded Objects now: 1256.
+Memory consumption went from 71.2 MB to 71.1 MB.
+Total: 2.034417 ms (FindLiveObjects: 0.042792 ms CreateObjectMapping: 0.013208 ms MarkObjects: 1.916792 ms  DeleteObjects: 0.061292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BloomComponent.cs: 755f611bb4d32a54d162192a9fc6dd86 -> 
+  custom:scripting/monoscript/fileName/MotionBlurComponent.cs: 6cf5a99eefa473d803af3e64f841a0a6 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditor.cs: 5454250018fe1f45305c6e2bbb867603 -> 
+  custom:scripting/monoscript/fileName/RiderAssetPostprocessor.cs: e6ad4f374cd20986773f123ef82b628b -> e95044eb94149eee30f5192e36c02104
+  custom:scripting/monoscript/fileName/SerializableVersion.cs: 37d1dc623e9e336a7d92f02239a5eea0 -> 66cf30c0372dc35aea960f71af56ff8a
+  custom:scripting/monoscript/fileName/PostProcessingMonitor.cs: d1e07bd8dc8b5f2f5124f2514220156a -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RiderInitializer.cs: 68ef77945a5c56741cb9a0219dfe7657 -> d44ce07d40dcd4d066b6c1c8d08f3519
+  custom:scripting/monoscript/fileName/TestsCallback.cs: 6648df980912e96eaae5c39374242936 -> 420027d2a6ccaf7376f849b0f965edcd
+  custom:scripting/monoscript/fileName/ProjectPart.cs: fa153b81a1be75d157e4b8a3e4771fc2 -> e09789f5d21ec839c23f3a2c8c340a5a
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsComponent.cs: 1b8215a7f6eae55c3fc6a97379498db3 -> 
+  custom:scripting/monoscript/fileName/TestEvent.cs: 600966b5c87333333e8aa4555a03efa6 -> ff94f6973aa3f0db280f3ed0b7577e48
+  custom:scripting/monoscript/fileName/SolutionGuidGenerator.cs: fff5e43ac88ff72f14745857eb692caa -> 39a21c4f5e351b9b4a2916e800641a4a
+  custom:scripting/monoscript/fileName/DitheringModel.cs: fa99c50231ddc7ca26b5d6c9a68b4b31 -> 
+  custom:scripting/monoscript/fileName/PackageManagerTracker.cs: 6b4f549427cfb6e5a3495618f2118a44 -> 651bbc6653e509037fd83f80aa48fad7
+  custom:scripting/monoscript/fileName/IFileIO.cs: f591b2fd0e7a5b3d1b89896fce5380e7 -> d1715877724f6e7813b95bae6fbc24d5
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: a0d3abed53c1ab486b2b816d527a8c92 -> 2bbfb8fc762d145b0b8f0404790fa10d
+  custom:scripting/monoscript/fileName/MaterialFactory.cs: 39b00f1518fc675c62e508eb4bdec486 -> 
+  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: 208c293eec47ebea88bea24abfda77aa -> 
+  custom:scripting/monoscript/fileName/MotionBlurModelEditor.cs: 214d77ab75c222685eecaec8c6aed3b0 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorDataPersisted.cs: 86b94c4c59f51e667ab7e1f2d997c184 -> 93e7c36b8be60b7055550adb6ace534f
+  custom:scripting/monoscript/fileName/RiderPathUtil.cs: b3d293b09b57cc7b91d500a8b861ad70 -> a77167e74e3a3d01856e2c8265c09e64
+  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: 4b6bc01a6288a606d1a3fe94f621633b -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModel.cs: ac26bcd19cab8c88e9b65cb75ee1c356 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RiderMenu.cs: 2f14cf7eed9a2ad63962ab0ec2641b7b -> a430c0ff873704a92fbd3fa96f173c8d
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ColorGradingComponent.cs: fc28099e3cee649b1f5925a07b57ea96 -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: 3ec1a95fcab585aeb5b64b4a7e03330a -> b2548d11c5a56238ffab3a68b5dcee26
+  custom:scripting/monoscript/fileName/EditorPluginInterop.cs: 1a28103090f24bb43afd0997a69f9b48 -> 087796556f1ed2025e28209e52d82ccc
+  custom:scripting/monoscript/fileName/TrackballAttribute.cs: f1962deba67196a6cd6b7953be1caf36 -> 
+  custom:scripting/monoscript/fileName/UserLutModel.cs: ce559ad59b29fc066f37249281afd441 -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionComponent.cs: ae5a7089fb97a5a97a8f11138ce7c9d2 -> 
+  custom:scripting/monoscript/fileName/PostProcessingProfile.cs: e94a21971fab43a541218a4f91e0403c -> 
+  custom:scripting/monoscript/fileName/GraphicsUtils.cs: f7df21c2acb52bb931f99c0a424b6be0 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldComponent.cs: b0afd8f8844e3e4017df6130c14d0dfc -> 
+  custom:scripting/monoscript/fileName/EditorResources.cs: 9f83d1aedff2fa20e157243f0913ea0e -> 
+  custom:scripting/monoscript/fileName/MinAttribute.cs: 941c73502025168e3301edfeaed1b25e -> 
+  custom:scripting/monoscript/fileName/GrainComponent.cs: fae958f48caa0fab6bcf7f9c48b915e1 -> 
+  custom:scripting/monoscript/fileName/ColorGradingModelEditor.cs: d8393f813d799206976f65da1ab781ef -> 
+  custom:scripting/monoscript/fileName/ColorGradingCurve.cs: e1e989893ee31e7801923212f0468312 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModel.cs: 325b0130eaada61513aeac7b8c97a9d7 -> 
+  custom:scripting/monoscript/fileName/UserLutModelEditor.cs: 342104b23101d3bfd45391c0769a34cf -> 
+  custom:scripting/monoscript/fileName/FogComponent.cs: 2dfe6d4c859eabd11b82ff8fc7d7ad22 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationModel.cs: 3f166f1ecbc6f39ed2f6b10cbc5b4ba4 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsModel.cs: 4a09809f2c0ed6cca27229b06ce1d289 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VignetteModel.cs: ab6733272f937ac0155aab47b4a8e58e -> 
+  custom:scripting/monoscript/fileName/RenderTextureFactory.cs: b11bc916a1a88ed67d986ee69a536511 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorData.cs: ac763da56c18afcbbc99b7cf67651110 -> fb9aed0c9d95878995d450a00d549f78
+  custom:scripting/monoscript/fileName/FogModelEditor.cs: 64b75506b78e4411272a1d25aff5dcfd -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModel.cs: 5bcc92c7d981d480ed07d6af7dd1a959 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModelEditor.cs: 7f4dd9c1675fb2cce031c62e047539ef -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModelEditor.cs: 99a92cb6d65b3a11adad7b285256ee66 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModelEditor.cs: ee1343b3ceaceb2c63bf272baf871cbd -> 
+  custom:scripting/monoscript/fileName/Discovery.cs: b8d0211ead4eaec682b9d12d86ef1994 -> 6c003b3862e6a4a3190ec655cba01f40
+  custom:scripting/monoscript/fileName/VignetteComponent.cs: 293deb083808f71d2d18d818ef588272 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditorAttribute.cs: 84467b1ef2082fe26f00bdedc34db836 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunCallback.cs: 6109fbb45740725119ed9609ae2cb6ab -> 0f406f4b09f3b7bd1bfd8f867df2e978
+  custom:scripting/monoscript/fileName/DefaultPostFxModelEditor.cs: e4be4b1d308934dee3a6a91920dc1b3d -> 
+  custom:scripting/monoscript/fileName/ReflectionUtils.cs: 14b4c7d2cdf78d9b158d00fb2c3c24b2 -> 
+  custom:scripting/monoscript/fileName/CallbackInitializer.cs: d227e453fc55ff33477a0f8f90826257 -> b6cad195ed4890ee7aed8c4de2807157
+  custom:scripting/monoscript/fileName/FogModel.cs: c4cd4da1fb97c7abf787083602f52bf5 -> 
+  custom:scripting/monoscript/fileName/MinDrawer.cs: f0b5a34ad7cefeba48c04a270d4abfc9 -> 
+  custom:scripting/monoscript/fileName/RiderTestRunner.cs: a09449e7603772ef60589c92d46be0c3 -> b9ea3ff0565ae2955ea8f15dd6e578d4
+  custom:scripting/monoscript/fileName/TaaComponent.cs: 7c343e97072a6712c3a2b01e75fdb7fa -> 
+  custom:scripting/monoscript/fileName/PostProcessingFactory.cs: f4e35cbabcf5e0add8e963bb8ab175b2 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunEventsHandler.cs: a9e2807330a6f2c36d667ee1a2c4f414 -> 9ebe337aca2d71ac02fccc5c886e0668
+  custom:scripting/monoscript/fileName/WaveformMonitor.cs: fa17c20b734d78632b46f64cd9d4f8c6 -> 
+  custom:scripting/monoscript/fileName/ParadeMonitor.cs: cae69c77ac3a6bd03788e390b0793dce -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/StringUtils.cs: 200f5307597eeab8c00b86aef1ee800c -> 2be5fb51e6f0660c955416f4d8f6f7ad
+  custom:scripting/monoscript/fileName/DitheringComponent.cs: 83d905897534466960141b85361bb6b4 -> 
+  custom:scripting/monoscript/fileName/ExampleWheelController.cs: 9600d370c57ff0da5766666ba4365a29 -> 
+  custom:scripting/monoscript/fileName/BloomModelEditor.cs: 82667d6cbb2e9deab73f43bddd4cb3ad -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GetSetAttribute.cs: b786c1938e0c0f5ecaf463807c2d7653 -> 
+  custom:scripting/monoscript/fileName/CommandLineParser.cs: a5ce035a20fc026f12db6b796b898d65 -> 25c8ce1c1ecf3aba3903da1187b88166
+  custom:scripting/monoscript/fileName/DepthOfFieldModel.cs: ab243c09a4b44fd7a53f73051db01cbc -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditor.cs: 4a0f526f1b31c7d9c331714a284a6791 -> 4ddd2581343451de6f696adaf8c0958f
+  custom:scripting/monoscript/fileName/HistogramMonitor.cs: 89c185ea097a2554de07760bc4248c43 -> 
+  custom:scripting/monoscript/fileName/FxStyles.cs: 82e974921467cb55809ecad82f38f7ca -> 
+  custom:scripting/monoscript/fileName/FileIOProvider.cs: 86c8e5e2df704262ebd9971ddef53615 -> 93247588b72fb2c2d642acc7359e639c
+  custom:scripting/monoscript/fileName/PostProcessingBehaviourEditor.cs: 066ae7bf767a73228aa8d9e772743d81 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModel.cs: 2f64caba6afa59bc78865f13b6f9065d -> 
+  custom:scripting/monoscript/fileName/PluginSettings.cs: 727424108b6598a2387dd87fa5ed687f -> 4ee82f9c59f87f1dece05e6b9763c365
+  custom:scripting/monoscript/fileName/PostProcessingContext.cs: be8a0bc1565c6324b1fd40a33f66279b -> 
+  custom:scripting/monoscript/fileName/LastWriteTracker.cs: e117305b6c922c0adb79679b01fac2c8 -> c78bd5b4fa28ac60ca7ed50f9c2b99d2
+  custom:scripting/monoscript/fileName/FileSystemUtil.cs: 6856b263874916a35e9cabf0faa6bad8 -> 3a1d37ca0015bdfbd542c903cf738043
+  custom:scripting/monoscript/fileName/ColorGradingModel.cs: d1c2ef15f5e9e4868052777d51361b40 -> 
+  custom:scripting/monoscript/fileName/EditorGUIHelper.cs: 4a11466b474c4ddf8b0e969391a97509 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldModelEditor.cs: c9db63f1a070d3e8ad359080de3aa855 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationComponent.cs: cda95994b71ba23d0c0f0fe0f241aab9 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModel.cs: 507d9c80d381478e1c14f5bfe34012ae -> 
+  custom:scripting/monoscript/fileName/VignetteModelEditor.cs: e544ec17c4d10dc7a011d82b890e61d2 -> 
+  custom:scripting/monoscript/fileName/IGenerator.cs: e53c624814a84a932e0860f584f7deb9 -> 7460422a7cf0a449df86606b185ffb0e
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/UserLutComponent.cs: 944143ce5f543a40c92ecea777f35ae4 -> 
+  custom:scripting/monoscript/fileName/IAssemblyNameProvider.cs: de79d586ca221e8ac344be669ec25f7e -> 005dc9d9c07dc825fea94e0fbc841e20
+  custom:scripting/monoscript/fileName/LibcNativeInterop.cs: c73f097a3ef89ebf41e7633fc6e71aff -> 77c1db6bef2e1063dc874463b520ed18
+  custom:scripting/monoscript/fileName/CallbackData.cs: 244f50edb9a06e595eeca45abc022db5 -> b15b13425eedd78fb5c4fc4930a9e8b4
+  custom:scripting/monoscript/fileName/StartUpMethodExecutor.cs: ecce11359b7760342ad14bc80bad2220 -> 45cc23141d36926881d69e4d2f8950c7
+  custom:scripting/monoscript/fileName/CurveEditor.cs: 6cba1958072d99c0ff92650cfaf3fa87 -> 
+  custom:scripting/monoscript/fileName/TrackballGroupAttribute.cs: 6d071733b141a3fb3360b110560ed1cc -> 
+  custom:scripting/monoscript/fileName/DitheringModelEditor.cs: 98ce08c54d480e2032b7e03104c8332a -> 
+  custom:scripting/monoscript/fileName/RiderStyles.cs: cd129c7ac3790ffa53f73149c91a781a -> 871a958d95b29e48af876a5d411c626a
+  custom:scripting/monoscript/fileName/GUIDProvider.cs: 7908ce21a0551f501997ec920c162534 -> 3e1b7e2f9f1116bc475fe8e583750bd5
+  custom:scripting/monoscript/fileName/PostProcessingInspector.cs: b617eaa0b6e3e752eaf9e9a89203dc82 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModelEditor.cs: 0f2b80733b1449af72ed38ee469e2a30 -> 
+  custom:scripting/monoscript/fileName/PostProcessingBehaviour.cs: b0fbf7f67aeee9a6f7db03386dbc8c1e -> 
+  custom:scripting/monoscript/fileName/TrackballGroupDrawer.cs: 36f1db6df3ee9bb6e23950968f1fa293 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsEditor.cs: 315fb7cf21f3f53a30e4961d88029d42 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionComponent.cs: 79ad7ef64576d014e73a91b6c3af0688 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationComponent.cs: 0cb2aaf8cdc20c0baee2205168cbc73c -> 
+  custom:scripting/monoscript/fileName/GrainModelEditor.cs: fc1fd3126ff1a32e5c9c0211f235c203 -> 
+  custom:scripting/monoscript/fileName/GetSetDrawer.cs: 19bba8dcf0569bc9ff3f3eb8733c91d8 -> 
+  custom:scripting/monoscript/fileName/MotionBlurModel.cs: 4e24ef1d444a45a9e0056ed75c7c7eb7 -> 
+  custom:scripting/monoscript/fileName/BloomModel.cs: b4ba3e478c2698eb99512ead9d78d360 -> 
+  custom:scripting/monoscript/fileName/FxaaComponent.cs: 9d1fd3efb92e1fef6fd176ee45003f08 -> 
+  custom:scripting/monoscript/fileName/GrainModel.cs: ce4589c9bbcb55f8f632b6617dc5d1f0 -> 
+  custom:scripting/monoscript/fileName/PostProcessingComponent.cs: 85236d6b86a55b2f46a14367ab625049 -> 
+  custom:scripting/monoscript/fileName/IGUIDGenerator.cs: 153317bb7bf55f081a729ef02e3a13bd -> bad2c2e3b2dbec33c36bdfd6fc903e19
+========================================================================
+Received Import Request.
+  Time since last request: 135166.489671 seconds.
+  path: Assets/Prefabs/Debug
+  artifactKey: Guid(95fea6dd42d72504ebca3f6617147ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Debug using Guid(95fea6dd42d72504ebca3f6617147ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64922f81ff0c40521cf87b7798352605') in 0.001235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.421427 seconds.
+  path: Assets/Prefabs/GameManager.prefab
+  artifactKey: Guid(caf93e4ddc2f0544cbddf4e2facb7fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GameManager.prefab using Guid(caf93e4ddc2f0544cbddf4e2facb7fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1d586f73a3eef3f51f880d2542c104') in 0.045332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 884
+========================================================================
+Received Import Request.
+  Time since last request: 0.503970 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(51597836fbbeec54f957bc66b18c1cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(51597836fbbeec54f957bc66b18c1cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d9777e227f8c553c02316e4c1b618d') in 0.002384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.864916 seconds.
+  path: Assets/Prefabs/UI.prefab
+  artifactKey: Guid(83c7966038655f8408d2785254c8ed6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI.prefab using Guid(83c7966038655f8408d2785254c8ed6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036e5b09609408e01521c3af019e81ed') in 0.006616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 317
+========================================================================
+Received Import Request.
+  Time since last request: 0.166790 seconds.
+  path: Assets/Prefabs/UI.prefab
+  artifactKey: Guid(83c7966038655f8408d2785254c8ed6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI.prefab using Guid(83c7966038655f8408d2785254c8ed6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9b71f6907123848f30fe40fff38880') in 0.003930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 317
+========================================================================
+Received Import Request.
+  Time since last request: 7.158295 seconds.
+  path: Assets/Resources/BillingMode.json
+  artifactKey: Guid(52559156bd074f346a337a3d12f04b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/BillingMode.json using Guid(52559156bd074f346a337a3d12f04b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd089882026206a785b912a1197c18361') in 0.000622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.426760 seconds.
+  path: Assets/Resources/PieceSets
+  artifactKey: Guid(fa309de18950d114cb5f797943b3542a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PieceSets using Guid(fa309de18950d114cb5f797943b3542a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2934f730fab99dad4a6cd1e47dcdc4') in 0.000276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.491798 seconds.
+  path: Assets/Resources/PieceSets/Marble
+  artifactKey: Guid(ee722a50a76115141841a8cc6af5ed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PieceSets/Marble using Guid(ee722a50a76115141841a8cc6af5ed8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0cedc195ae2ae348723e459c9a19b0') in 0.000353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.928429 seconds.
+  path: Assets/Resources/PieceSets/Marble/Black King.prefab
+  artifactKey: Guid(dbb22368c3e6fe347870800b6d20ed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PieceSets/Marble/Black King.prefab using Guid(dbb22368c3e6fe347870800b6d20ed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f139b9c166ceea9dce200131b9fa7b') in 0.362526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.435454 seconds.
+  path: Assets/Resources/PieceSets/Marble/Black Bishop.prefab
+  artifactKey: Guid(4ab2fc07c2bdf944b83263ec74783b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PieceSets/Marble/Black Bishop.prefab using Guid(4ab2fc07c2bdf944b83263ec74783b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200d8d5dbeb120b9c7c2b3bb1d1c04e7') in 0.006817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.546793 seconds.
+  path: Assets/Resources/PieceSets/Marble/Black Pawn.prefab
+  artifactKey: Guid(3c54e9b4ee7faf64bba25f29bda0ff17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PieceSets/Marble/Black Pawn.prefab using Guid(3c54e9b4ee7faf64bba25f29bda0ff17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e01ff72cae91001f21dc72f7452470') in 0.007317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.398279 seconds.
+  path: Assets/Resources/PieceSets/Marble/White Bishop.prefab
+  artifactKey: Guid(73adf65a399fb304bb6280f35e59a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PieceSets/Marble/White Bishop.prefab using Guid(73adf65a399fb304bb6280f35e59a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46ffd72c1df00b716655684c9b4e4af') in 0.008609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.422321 seconds.
+  path: Assets/Resources/PieceSets/Marble/White Pawn.prefab
+  artifactKey: Guid(e64e72e57cda12c4f99bc74983fbee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PieceSets/Marble/White Pawn.prefab using Guid(e64e72e57cda12c4f99bc74983fbee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ee30f1df8d5036c1dbb0050759319f') in 0.012680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.789080 seconds.
+  path: Assets/Resources/PieceSets/Marble/White Queen.prefab
+  artifactKey: Guid(51af2a85a8f890c478544843d679e1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PieceSets/Marble/White Queen.prefab using Guid(51af2a85a8f890c478544843d679e1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a70e116cfb780ed77dee2c9f0838757') in 0.010290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 4.253179 seconds.
+  path: Assets/Scenes/Board.unity
+  artifactKey: Guid(e9c3401578265c347beb008674b48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Board.unity using Guid(e9c3401578265c347beb008674b48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfdfe6dde90524b5edbb4b180e1458c') in 0.000462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.702227 seconds.
+  path: Assets/Scenes/Board
+  artifactKey: Guid(6112d842377ccac4f80739fb88404ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Board using Guid(6112d842377ccac4f80739fb88404ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c75224de00737ad7de960606e9bbdc') in 0.000433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.462959 seconds.
+  path: Assets/Scenes/Board.unity
+  artifactKey: Guid(e9c3401578265c347beb008674b48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Board.unity using Guid(e9c3401578265c347beb008674b48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf18187cf0358ac8ae5df8fc423ec37') in 0.000379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x30a737000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.292 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.256 seconds
+Domain Reload Profiling: 548ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (93ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (106ms)
+				TypeCache.ScanAssembly (97ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (256ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (118ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (76ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 771 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (27.9 KB). Loaded Objects now: 1269.
+Memory consumption went from 78.1 MB to 78.1 MB.
+Total: 1.843250 ms (FindLiveObjects: 0.043250 ms CreateObjectMapping: 0.013042 ms MarkObjects: 1.756708 ms  DeleteObjects: 0.029666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BloomComponent.cs: 755f611bb4d32a54d162192a9fc6dd86 -> 
+  custom:scripting/monoscript/fileName/MotionBlurComponent.cs: 6cf5a99eefa473d803af3e64f841a0a6 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditor.cs: 5454250018fe1f45305c6e2bbb867603 -> 
+  custom:scripting/monoscript/fileName/RiderAssetPostprocessor.cs: e6ad4f374cd20986773f123ef82b628b -> e95044eb94149eee30f5192e36c02104
+  custom:scripting/monoscript/fileName/SerializableVersion.cs: 37d1dc623e9e336a7d92f02239a5eea0 -> 66cf30c0372dc35aea960f71af56ff8a
+  custom:scripting/monoscript/fileName/PostProcessingMonitor.cs: d1e07bd8dc8b5f2f5124f2514220156a -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RiderInitializer.cs: 68ef77945a5c56741cb9a0219dfe7657 -> d44ce07d40dcd4d066b6c1c8d08f3519
+  custom:scripting/monoscript/fileName/TestsCallback.cs: 6648df980912e96eaae5c39374242936 -> 420027d2a6ccaf7376f849b0f965edcd
+  custom:scripting/monoscript/fileName/ProjectPart.cs: fa153b81a1be75d157e4b8a3e4771fc2 -> e09789f5d21ec839c23f3a2c8c340a5a
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsComponent.cs: 1b8215a7f6eae55c3fc6a97379498db3 -> 
+  custom:scripting/monoscript/fileName/TestEvent.cs: 600966b5c87333333e8aa4555a03efa6 -> ff94f6973aa3f0db280f3ed0b7577e48
+  custom:scripting/monoscript/fileName/SolutionGuidGenerator.cs: fff5e43ac88ff72f14745857eb692caa -> 39a21c4f5e351b9b4a2916e800641a4a
+  custom:scripting/monoscript/fileName/DitheringModel.cs: fa99c50231ddc7ca26b5d6c9a68b4b31 -> 
+  custom:scripting/monoscript/fileName/PackageManagerTracker.cs: 6b4f549427cfb6e5a3495618f2118a44 -> 651bbc6653e509037fd83f80aa48fad7
+  custom:scripting/monoscript/fileName/IFileIO.cs: f591b2fd0e7a5b3d1b89896fce5380e7 -> d1715877724f6e7813b95bae6fbc24d5
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: a0d3abed53c1ab486b2b816d527a8c92 -> 2bbfb8fc762d145b0b8f0404790fa10d
+  custom:scripting/monoscript/fileName/MaterialFactory.cs: 39b00f1518fc675c62e508eb4bdec486 -> 
+  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: 208c293eec47ebea88bea24abfda77aa -> 
+  custom:scripting/monoscript/fileName/MotionBlurModelEditor.cs: 214d77ab75c222685eecaec8c6aed3b0 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorDataPersisted.cs: 86b94c4c59f51e667ab7e1f2d997c184 -> 93e7c36b8be60b7055550adb6ace534f
+  custom:scripting/monoscript/fileName/RiderPathUtil.cs: b3d293b09b57cc7b91d500a8b861ad70 -> a77167e74e3a3d01856e2c8265c09e64
+  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: 4b6bc01a6288a606d1a3fe94f621633b -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModel.cs: ac26bcd19cab8c88e9b65cb75ee1c356 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RiderMenu.cs: 2f14cf7eed9a2ad63962ab0ec2641b7b -> a430c0ff873704a92fbd3fa96f173c8d
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ColorGradingComponent.cs: fc28099e3cee649b1f5925a07b57ea96 -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: 3ec1a95fcab585aeb5b64b4a7e03330a -> b2548d11c5a56238ffab3a68b5dcee26
+  custom:scripting/monoscript/fileName/EditorPluginInterop.cs: 1a28103090f24bb43afd0997a69f9b48 -> 087796556f1ed2025e28209e52d82ccc
+  custom:scripting/monoscript/fileName/TrackballAttribute.cs: f1962deba67196a6cd6b7953be1caf36 -> 
+  custom:scripting/monoscript/fileName/UserLutModel.cs: ce559ad59b29fc066f37249281afd441 -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionComponent.cs: ae5a7089fb97a5a97a8f11138ce7c9d2 -> 
+  custom:scripting/monoscript/fileName/PostProcessingProfile.cs: e94a21971fab43a541218a4f91e0403c -> 
+  custom:scripting/monoscript/fileName/GraphicsUtils.cs: f7df21c2acb52bb931f99c0a424b6be0 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldComponent.cs: b0afd8f8844e3e4017df6130c14d0dfc -> 
+  custom:scripting/monoscript/fileName/EditorResources.cs: 9f83d1aedff2fa20e157243f0913ea0e -> 
+  custom:scripting/monoscript/fileName/MinAttribute.cs: 941c73502025168e3301edfeaed1b25e -> 
+  custom:scripting/monoscript/fileName/GrainComponent.cs: fae958f48caa0fab6bcf7f9c48b915e1 -> 
+  custom:scripting/monoscript/fileName/ColorGradingModelEditor.cs: d8393f813d799206976f65da1ab781ef -> 
+  custom:scripting/monoscript/fileName/ColorGradingCurve.cs: e1e989893ee31e7801923212f0468312 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModel.cs: 325b0130eaada61513aeac7b8c97a9d7 -> 
+  custom:scripting/monoscript/fileName/UserLutModelEditor.cs: 342104b23101d3bfd45391c0769a34cf -> 
+  custom:scripting/monoscript/fileName/FogComponent.cs: 2dfe6d4c859eabd11b82ff8fc7d7ad22 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationModel.cs: 3f166f1ecbc6f39ed2f6b10cbc5b4ba4 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsModel.cs: 4a09809f2c0ed6cca27229b06ce1d289 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VignetteModel.cs: ab6733272f937ac0155aab47b4a8e58e -> 
+  custom:scripting/monoscript/fileName/RenderTextureFactory.cs: b11bc916a1a88ed67d986ee69a536511 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorData.cs: ac763da56c18afcbbc99b7cf67651110 -> fb9aed0c9d95878995d450a00d549f78
+  custom:scripting/monoscript/fileName/FogModelEditor.cs: 64b75506b78e4411272a1d25aff5dcfd -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModel.cs: 5bcc92c7d981d480ed07d6af7dd1a959 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModelEditor.cs: 7f4dd9c1675fb2cce031c62e047539ef -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModelEditor.cs: 99a92cb6d65b3a11adad7b285256ee66 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModelEditor.cs: ee1343b3ceaceb2c63bf272baf871cbd -> 
+  custom:scripting/monoscript/fileName/Discovery.cs: b8d0211ead4eaec682b9d12d86ef1994 -> 6c003b3862e6a4a3190ec655cba01f40
+  custom:scripting/monoscript/fileName/VignetteComponent.cs: 293deb083808f71d2d18d818ef588272 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditorAttribute.cs: 84467b1ef2082fe26f00bdedc34db836 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunCallback.cs: 6109fbb45740725119ed9609ae2cb6ab -> 0f406f4b09f3b7bd1bfd8f867df2e978
+  custom:scripting/monoscript/fileName/DefaultPostFxModelEditor.cs: e4be4b1d308934dee3a6a91920dc1b3d -> 
+  custom:scripting/monoscript/fileName/ReflectionUtils.cs: 14b4c7d2cdf78d9b158d00fb2c3c24b2 -> 
+  custom:scripting/monoscript/fileName/CallbackInitializer.cs: d227e453fc55ff33477a0f8f90826257 -> b6cad195ed4890ee7aed8c4de2807157
+  custom:scripting/monoscript/fileName/FogModel.cs: c4cd4da1fb97c7abf787083602f52bf5 -> 
+  custom:scripting/monoscript/fileName/MinDrawer.cs: f0b5a34ad7cefeba48c04a270d4abfc9 -> 
+  custom:scripting/monoscript/fileName/RiderTestRunner.cs: a09449e7603772ef60589c92d46be0c3 -> b9ea3ff0565ae2955ea8f15dd6e578d4
+  custom:scripting/monoscript/fileName/TaaComponent.cs: 7c343e97072a6712c3a2b01e75fdb7fa -> 
+  custom:scripting/monoscript/fileName/PostProcessingFactory.cs: f4e35cbabcf5e0add8e963bb8ab175b2 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunEventsHandler.cs: a9e2807330a6f2c36d667ee1a2c4f414 -> 9ebe337aca2d71ac02fccc5c886e0668
+  custom:scripting/monoscript/fileName/WaveformMonitor.cs: fa17c20b734d78632b46f64cd9d4f8c6 -> 
+  custom:scripting/monoscript/fileName/ParadeMonitor.cs: cae69c77ac3a6bd03788e390b0793dce -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/StringUtils.cs: 200f5307597eeab8c00b86aef1ee800c -> 2be5fb51e6f0660c955416f4d8f6f7ad
+  custom:scripting/monoscript/fileName/DitheringComponent.cs: 83d905897534466960141b85361bb6b4 -> 
+  custom:scripting/monoscript/fileName/ExampleWheelController.cs: 9600d370c57ff0da5766666ba4365a29 -> 
+  custom:scripting/monoscript/fileName/BloomModelEditor.cs: 82667d6cbb2e9deab73f43bddd4cb3ad -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GetSetAttribute.cs: b786c1938e0c0f5ecaf463807c2d7653 -> 
+  custom:scripting/monoscript/fileName/CommandLineParser.cs: a5ce035a20fc026f12db6b796b898d65 -> 25c8ce1c1ecf3aba3903da1187b88166
+  custom:scripting/monoscript/fileName/DepthOfFieldModel.cs: ab243c09a4b44fd7a53f73051db01cbc -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditor.cs: 4a0f526f1b31c7d9c331714a284a6791 -> 4ddd2581343451de6f696adaf8c0958f
+  custom:scripting/monoscript/fileName/HistogramMonitor.cs: 89c185ea097a2554de07760bc4248c43 -> 
+  custom:scripting/monoscript/fileName/FxStyles.cs: 82e974921467cb55809ecad82f38f7ca -> 
+  custom:scripting/monoscript/fileName/FileIOProvider.cs: 86c8e5e2df704262ebd9971ddef53615 -> 93247588b72fb2c2d642acc7359e639c
+  custom:scripting/monoscript/fileName/PostProcessingBehaviourEditor.cs: 066ae7bf767a73228aa8d9e772743d81 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModel.cs: 2f64caba6afa59bc78865f13b6f9065d -> 
+  custom:scripting/monoscript/fileName/PluginSettings.cs: 727424108b6598a2387dd87fa5ed687f -> 4ee82f9c59f87f1dece05e6b9763c365
+  custom:scripting/monoscript/fileName/PostProcessingContext.cs: be8a0bc1565c6324b1fd40a33f66279b -> 
+  custom:scripting/monoscript/fileName/LastWriteTracker.cs: e117305b6c922c0adb79679b01fac2c8 -> c78bd5b4fa28ac60ca7ed50f9c2b99d2
+  custom:scripting/monoscript/fileName/FileSystemUtil.cs: 6856b263874916a35e9cabf0faa6bad8 -> 3a1d37ca0015bdfbd542c903cf738043
+  custom:scripting/monoscript/fileName/ColorGradingModel.cs: d1c2ef15f5e9e4868052777d51361b40 -> 
+  custom:scripting/monoscript/fileName/EditorGUIHelper.cs: 4a11466b474c4ddf8b0e969391a97509 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldModelEditor.cs: c9db63f1a070d3e8ad359080de3aa855 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationComponent.cs: cda95994b71ba23d0c0f0fe0f241aab9 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModel.cs: 507d9c80d381478e1c14f5bfe34012ae -> 
+  custom:scripting/monoscript/fileName/VignetteModelEditor.cs: e544ec17c4d10dc7a011d82b890e61d2 -> 
+  custom:scripting/monoscript/fileName/IGenerator.cs: e53c624814a84a932e0860f584f7deb9 -> 7460422a7cf0a449df86606b185ffb0e
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/UserLutComponent.cs: 944143ce5f543a40c92ecea777f35ae4 -> 
+  custom:scripting/monoscript/fileName/IAssemblyNameProvider.cs: de79d586ca221e8ac344be669ec25f7e -> 005dc9d9c07dc825fea94e0fbc841e20
+  custom:scripting/monoscript/fileName/LibcNativeInterop.cs: c73f097a3ef89ebf41e7633fc6e71aff -> 77c1db6bef2e1063dc874463b520ed18
+  custom:scripting/monoscript/fileName/CallbackData.cs: 244f50edb9a06e595eeca45abc022db5 -> b15b13425eedd78fb5c4fc4930a9e8b4
+  custom:scripting/monoscript/fileName/StartUpMethodExecutor.cs: ecce11359b7760342ad14bc80bad2220 -> 45cc23141d36926881d69e4d2f8950c7
+  custom:scripting/monoscript/fileName/CurveEditor.cs: 6cba1958072d99c0ff92650cfaf3fa87 -> 
+  custom:scripting/monoscript/fileName/TrackballGroupAttribute.cs: 6d071733b141a3fb3360b110560ed1cc -> 
+  custom:scripting/monoscript/fileName/DitheringModelEditor.cs: 98ce08c54d480e2032b7e03104c8332a -> 
+  custom:scripting/monoscript/fileName/RiderStyles.cs: cd129c7ac3790ffa53f73149c91a781a -> 871a958d95b29e48af876a5d411c626a
+  custom:scripting/monoscript/fileName/GUIDProvider.cs: 7908ce21a0551f501997ec920c162534 -> 3e1b7e2f9f1116bc475fe8e583750bd5
+  custom:scripting/monoscript/fileName/PostProcessingInspector.cs: b617eaa0b6e3e752eaf9e9a89203dc82 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModelEditor.cs: 0f2b80733b1449af72ed38ee469e2a30 -> 
+  custom:scripting/monoscript/fileName/PostProcessingBehaviour.cs: b0fbf7f67aeee9a6f7db03386dbc8c1e -> 
+  custom:scripting/monoscript/fileName/TrackballGroupDrawer.cs: 36f1db6df3ee9bb6e23950968f1fa293 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsEditor.cs: 315fb7cf21f3f53a30e4961d88029d42 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionComponent.cs: 79ad7ef64576d014e73a91b6c3af0688 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationComponent.cs: 0cb2aaf8cdc20c0baee2205168cbc73c -> 
+  custom:scripting/monoscript/fileName/GrainModelEditor.cs: fc1fd3126ff1a32e5c9c0211f235c203 -> 
+  custom:scripting/monoscript/fileName/GetSetDrawer.cs: 19bba8dcf0569bc9ff3f3eb8733c91d8 -> 
+  custom:scripting/monoscript/fileName/MotionBlurModel.cs: 4e24ef1d444a45a9e0056ed75c7c7eb7 -> 
+  custom:scripting/monoscript/fileName/BloomModel.cs: b4ba3e478c2698eb99512ead9d78d360 -> 
+  custom:scripting/monoscript/fileName/FxaaComponent.cs: 9d1fd3efb92e1fef6fd176ee45003f08 -> 
+  custom:scripting/monoscript/fileName/GrainModel.cs: ce4589c9bbcb55f8f632b6617dc5d1f0 -> 
+  custom:scripting/monoscript/fileName/PostProcessingComponent.cs: 85236d6b86a55b2f46a14367ab625049 -> 
+  custom:scripting/monoscript/fileName/IGUIDGenerator.cs: 153317bb7bf55f081a729ef02e3a13bd -> bad2c2e3b2dbec33c36bdfd6fc903e19
+========================================================================
+Received Import Request.
+  Time since last request: 51.524550 seconds.
+  path: Assets/Scenes/UnityChessGame.unity
+  artifactKey: Guid(e9c3401578265c347beb008674b48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/UnityChessGame.unity using Guid(e9c3401578265c347beb008674b48c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7d29590bd01499b0267b1d13e4ab3a') in 0.001992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x30a737000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.289 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.246 seconds
+Domain Reload Profiling: 535ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (91ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (246ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (115ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (22ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 771 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10 unused Assets / (24.8 KB). Loaded Objects now: 1272.
+Memory consumption went from 83.3 MB to 83.3 MB.
+Total: 1.874292 ms (FindLiveObjects: 0.042750 ms CreateObjectMapping: 0.013583 ms MarkObjects: 1.789542 ms  DeleteObjects: 0.028042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BloomComponent.cs: 755f611bb4d32a54d162192a9fc6dd86 -> 
+  custom:scripting/monoscript/fileName/MotionBlurComponent.cs: 6cf5a99eefa473d803af3e64f841a0a6 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditor.cs: 5454250018fe1f45305c6e2bbb867603 -> 
+  custom:scripting/monoscript/fileName/RiderAssetPostprocessor.cs: e6ad4f374cd20986773f123ef82b628b -> e95044eb94149eee30f5192e36c02104
+  custom:scripting/monoscript/fileName/SerializableVersion.cs: 37d1dc623e9e336a7d92f02239a5eea0 -> 66cf30c0372dc35aea960f71af56ff8a
+  custom:scripting/monoscript/fileName/PostProcessingMonitor.cs: d1e07bd8dc8b5f2f5124f2514220156a -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RiderInitializer.cs: 68ef77945a5c56741cb9a0219dfe7657 -> d44ce07d40dcd4d066b6c1c8d08f3519
+  custom:scripting/monoscript/fileName/TestsCallback.cs: 6648df980912e96eaae5c39374242936 -> 420027d2a6ccaf7376f849b0f965edcd
+  custom:scripting/monoscript/fileName/ProjectPart.cs: fa153b81a1be75d157e4b8a3e4771fc2 -> e09789f5d21ec839c23f3a2c8c340a5a
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsComponent.cs: 1b8215a7f6eae55c3fc6a97379498db3 -> 
+  custom:scripting/monoscript/fileName/TestEvent.cs: 600966b5c87333333e8aa4555a03efa6 -> ff94f6973aa3f0db280f3ed0b7577e48
+  custom:scripting/monoscript/fileName/SolutionGuidGenerator.cs: fff5e43ac88ff72f14745857eb692caa -> 39a21c4f5e351b9b4a2916e800641a4a
+  custom:scripting/monoscript/fileName/DitheringModel.cs: fa99c50231ddc7ca26b5d6c9a68b4b31 -> 
+  custom:scripting/monoscript/fileName/PackageManagerTracker.cs: 6b4f549427cfb6e5a3495618f2118a44 -> 651bbc6653e509037fd83f80aa48fad7
+  custom:scripting/monoscript/fileName/IFileIO.cs: f591b2fd0e7a5b3d1b89896fce5380e7 -> d1715877724f6e7813b95bae6fbc24d5
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: a0d3abed53c1ab486b2b816d527a8c92 -> 2bbfb8fc762d145b0b8f0404790fa10d
+  custom:scripting/monoscript/fileName/MaterialFactory.cs: 39b00f1518fc675c62e508eb4bdec486 -> 
+  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: 208c293eec47ebea88bea24abfda77aa -> 
+  custom:scripting/monoscript/fileName/MotionBlurModelEditor.cs: 214d77ab75c222685eecaec8c6aed3b0 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorDataPersisted.cs: 86b94c4c59f51e667ab7e1f2d997c184 -> 93e7c36b8be60b7055550adb6ace534f
+  custom:scripting/monoscript/fileName/RiderPathUtil.cs: b3d293b09b57cc7b91d500a8b861ad70 -> a77167e74e3a3d01856e2c8265c09e64
+  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: 4b6bc01a6288a606d1a3fe94f621633b -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModel.cs: ac26bcd19cab8c88e9b65cb75ee1c356 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RiderMenu.cs: 2f14cf7eed9a2ad63962ab0ec2641b7b -> a430c0ff873704a92fbd3fa96f173c8d
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ColorGradingComponent.cs: fc28099e3cee649b1f5925a07b57ea96 -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: 3ec1a95fcab585aeb5b64b4a7e03330a -> b2548d11c5a56238ffab3a68b5dcee26
+  custom:scripting/monoscript/fileName/EditorPluginInterop.cs: 1a28103090f24bb43afd0997a69f9b48 -> 087796556f1ed2025e28209e52d82ccc
+  custom:scripting/monoscript/fileName/TrackballAttribute.cs: f1962deba67196a6cd6b7953be1caf36 -> 
+  custom:scripting/monoscript/fileName/UserLutModel.cs: ce559ad59b29fc066f37249281afd441 -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionComponent.cs: ae5a7089fb97a5a97a8f11138ce7c9d2 -> 
+  custom:scripting/monoscript/fileName/PostProcessingProfile.cs: e94a21971fab43a541218a4f91e0403c -> 
+  custom:scripting/monoscript/fileName/GraphicsUtils.cs: f7df21c2acb52bb931f99c0a424b6be0 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldComponent.cs: b0afd8f8844e3e4017df6130c14d0dfc -> 
+  custom:scripting/monoscript/fileName/EditorResources.cs: 9f83d1aedff2fa20e157243f0913ea0e -> 
+  custom:scripting/monoscript/fileName/MinAttribute.cs: 941c73502025168e3301edfeaed1b25e -> 
+  custom:scripting/monoscript/fileName/GrainComponent.cs: fae958f48caa0fab6bcf7f9c48b915e1 -> 
+  custom:scripting/monoscript/fileName/ColorGradingModelEditor.cs: d8393f813d799206976f65da1ab781ef -> 
+  custom:scripting/monoscript/fileName/ColorGradingCurve.cs: e1e989893ee31e7801923212f0468312 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModel.cs: 325b0130eaada61513aeac7b8c97a9d7 -> 
+  custom:scripting/monoscript/fileName/UserLutModelEditor.cs: 342104b23101d3bfd45391c0769a34cf -> 
+  custom:scripting/monoscript/fileName/FogComponent.cs: 2dfe6d4c859eabd11b82ff8fc7d7ad22 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationModel.cs: 3f166f1ecbc6f39ed2f6b10cbc5b4ba4 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsModel.cs: 4a09809f2c0ed6cca27229b06ce1d289 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VignetteModel.cs: ab6733272f937ac0155aab47b4a8e58e -> 
+  custom:scripting/monoscript/fileName/RenderTextureFactory.cs: b11bc916a1a88ed67d986ee69a536511 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorData.cs: ac763da56c18afcbbc99b7cf67651110 -> fb9aed0c9d95878995d450a00d549f78
+  custom:scripting/monoscript/fileName/FogModelEditor.cs: 64b75506b78e4411272a1d25aff5dcfd -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModel.cs: 5bcc92c7d981d480ed07d6af7dd1a959 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModelEditor.cs: 7f4dd9c1675fb2cce031c62e047539ef -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModelEditor.cs: 99a92cb6d65b3a11adad7b285256ee66 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModelEditor.cs: ee1343b3ceaceb2c63bf272baf871cbd -> 
+  custom:scripting/monoscript/fileName/Discovery.cs: b8d0211ead4eaec682b9d12d86ef1994 -> 6c003b3862e6a4a3190ec655cba01f40
+  custom:scripting/monoscript/fileName/VignetteComponent.cs: 293deb083808f71d2d18d818ef588272 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditorAttribute.cs: 84467b1ef2082fe26f00bdedc34db836 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunCallback.cs: 6109fbb45740725119ed9609ae2cb6ab -> 0f406f4b09f3b7bd1bfd8f867df2e978
+  custom:scripting/monoscript/fileName/DefaultPostFxModelEditor.cs: e4be4b1d308934dee3a6a91920dc1b3d -> 
+  custom:scripting/monoscript/fileName/ReflectionUtils.cs: 14b4c7d2cdf78d9b158d00fb2c3c24b2 -> 
+  custom:scripting/monoscript/fileName/CallbackInitializer.cs: d227e453fc55ff33477a0f8f90826257 -> b6cad195ed4890ee7aed8c4de2807157
+  custom:scripting/monoscript/fileName/FogModel.cs: c4cd4da1fb97c7abf787083602f52bf5 -> 
+  custom:scripting/monoscript/fileName/MinDrawer.cs: f0b5a34ad7cefeba48c04a270d4abfc9 -> 
+  custom:scripting/monoscript/fileName/RiderTestRunner.cs: a09449e7603772ef60589c92d46be0c3 -> b9ea3ff0565ae2955ea8f15dd6e578d4
+  custom:scripting/monoscript/fileName/TaaComponent.cs: 7c343e97072a6712c3a2b01e75fdb7fa -> 
+  custom:scripting/monoscript/fileName/PostProcessingFactory.cs: f4e35cbabcf5e0add8e963bb8ab175b2 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunEventsHandler.cs: a9e2807330a6f2c36d667ee1a2c4f414 -> 9ebe337aca2d71ac02fccc5c886e0668
+  custom:scripting/monoscript/fileName/WaveformMonitor.cs: fa17c20b734d78632b46f64cd9d4f8c6 -> 
+  custom:scripting/monoscript/fileName/ParadeMonitor.cs: cae69c77ac3a6bd03788e390b0793dce -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/StringUtils.cs: 200f5307597eeab8c00b86aef1ee800c -> 2be5fb51e6f0660c955416f4d8f6f7ad
+  custom:scripting/monoscript/fileName/DitheringComponent.cs: 83d905897534466960141b85361bb6b4 -> 
+  custom:scripting/monoscript/fileName/ExampleWheelController.cs: 9600d370c57ff0da5766666ba4365a29 -> 
+  custom:scripting/monoscript/fileName/BloomModelEditor.cs: 82667d6cbb2e9deab73f43bddd4cb3ad -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GetSetAttribute.cs: b786c1938e0c0f5ecaf463807c2d7653 -> 
+  custom:scripting/monoscript/fileName/CommandLineParser.cs: a5ce035a20fc026f12db6b796b898d65 -> 25c8ce1c1ecf3aba3903da1187b88166
+  custom:scripting/monoscript/fileName/DepthOfFieldModel.cs: ab243c09a4b44fd7a53f73051db01cbc -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditor.cs: 4a0f526f1b31c7d9c331714a284a6791 -> 4ddd2581343451de6f696adaf8c0958f
+  custom:scripting/monoscript/fileName/HistogramMonitor.cs: 89c185ea097a2554de07760bc4248c43 -> 
+  custom:scripting/monoscript/fileName/FxStyles.cs: 82e974921467cb55809ecad82f38f7ca -> 
+  custom:scripting/monoscript/fileName/FileIOProvider.cs: 86c8e5e2df704262ebd9971ddef53615 -> 93247588b72fb2c2d642acc7359e639c
+  custom:scripting/monoscript/fileName/PostProcessingBehaviourEditor.cs: 066ae7bf767a73228aa8d9e772743d81 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModel.cs: 2f64caba6afa59bc78865f13b6f9065d -> 
+  custom:scripting/monoscript/fileName/PluginSettings.cs: 727424108b6598a2387dd87fa5ed687f -> 4ee82f9c59f87f1dece05e6b9763c365
+  custom:scripting/monoscript/fileName/PostProcessingContext.cs: be8a0bc1565c6324b1fd40a33f66279b -> 
+  custom:scripting/monoscript/fileName/LastWriteTracker.cs: e117305b6c922c0adb79679b01fac2c8 -> c78bd5b4fa28ac60ca7ed50f9c2b99d2
+  custom:scripting/monoscript/fileName/FileSystemUtil.cs: 6856b263874916a35e9cabf0faa6bad8 -> 3a1d37ca0015bdfbd542c903cf738043
+  custom:scripting/monoscript/fileName/ColorGradingModel.cs: d1c2ef15f5e9e4868052777d51361b40 -> 
+  custom:scripting/monoscript/fileName/EditorGUIHelper.cs: 4a11466b474c4ddf8b0e969391a97509 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldModelEditor.cs: c9db63f1a070d3e8ad359080de3aa855 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationComponent.cs: cda95994b71ba23d0c0f0fe0f241aab9 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModel.cs: 507d9c80d381478e1c14f5bfe34012ae -> 
+  custom:scripting/monoscript/fileName/VignetteModelEditor.cs: e544ec17c4d10dc7a011d82b890e61d2 -> 
+  custom:scripting/monoscript/fileName/IGenerator.cs: e53c624814a84a932e0860f584f7deb9 -> 7460422a7cf0a449df86606b185ffb0e
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/UserLutComponent.cs: 944143ce5f543a40c92ecea777f35ae4 -> 
+  custom:scripting/monoscript/fileName/IAssemblyNameProvider.cs: de79d586ca221e8ac344be669ec25f7e -> 005dc9d9c07dc825fea94e0fbc841e20
+  custom:scripting/monoscript/fileName/LibcNativeInterop.cs: c73f097a3ef89ebf41e7633fc6e71aff -> 77c1db6bef2e1063dc874463b520ed18
+  custom:scripting/monoscript/fileName/CallbackData.cs: 244f50edb9a06e595eeca45abc022db5 -> b15b13425eedd78fb5c4fc4930a9e8b4
+  custom:scripting/monoscript/fileName/StartUpMethodExecutor.cs: ecce11359b7760342ad14bc80bad2220 -> 45cc23141d36926881d69e4d2f8950c7
+  custom:scripting/monoscript/fileName/CurveEditor.cs: 6cba1958072d99c0ff92650cfaf3fa87 -> 
+  custom:scripting/monoscript/fileName/TrackballGroupAttribute.cs: 6d071733b141a3fb3360b110560ed1cc -> 
+  custom:scripting/monoscript/fileName/DitheringModelEditor.cs: 98ce08c54d480e2032b7e03104c8332a -> 
+  custom:scripting/monoscript/fileName/RiderStyles.cs: cd129c7ac3790ffa53f73149c91a781a -> 871a958d95b29e48af876a5d411c626a
+  custom:scripting/monoscript/fileName/GUIDProvider.cs: 7908ce21a0551f501997ec920c162534 -> 3e1b7e2f9f1116bc475fe8e583750bd5
+  custom:scripting/monoscript/fileName/PostProcessingInspector.cs: b617eaa0b6e3e752eaf9e9a89203dc82 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModelEditor.cs: 0f2b80733b1449af72ed38ee469e2a30 -> 
+  custom:scripting/monoscript/fileName/PostProcessingBehaviour.cs: b0fbf7f67aeee9a6f7db03386dbc8c1e -> 
+  custom:scripting/monoscript/fileName/TrackballGroupDrawer.cs: 36f1db6df3ee9bb6e23950968f1fa293 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsEditor.cs: 315fb7cf21f3f53a30e4961d88029d42 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionComponent.cs: 79ad7ef64576d014e73a91b6c3af0688 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationComponent.cs: 0cb2aaf8cdc20c0baee2205168cbc73c -> 
+  custom:scripting/monoscript/fileName/GrainModelEditor.cs: fc1fd3126ff1a32e5c9c0211f235c203 -> 
+  custom:scripting/monoscript/fileName/GetSetDrawer.cs: 19bba8dcf0569bc9ff3f3eb8733c91d8 -> 
+  custom:scripting/monoscript/fileName/MotionBlurModel.cs: 4e24ef1d444a45a9e0056ed75c7c7eb7 -> 
+  custom:scripting/monoscript/fileName/BloomModel.cs: b4ba3e478c2698eb99512ead9d78d360 -> 
+  custom:scripting/monoscript/fileName/FxaaComponent.cs: 9d1fd3efb92e1fef6fd176ee45003f08 -> 
+  custom:scripting/monoscript/fileName/GrainModel.cs: ce4589c9bbcb55f8f632b6617dc5d1f0 -> 
+  custom:scripting/monoscript/fileName/PostProcessingComponent.cs: 85236d6b86a55b2f46a14367ab625049 -> 
+  custom:scripting/monoscript/fileName/IGUIDGenerator.cs: 153317bb7bf55f081a729ef02e3a13bd -> bad2c2e3b2dbec33c36bdfd6fc903e19
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x30a737000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.287 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.252 seconds
+Domain Reload Profiling: 540ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (91ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (115ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (22ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10 unused Assets / (24.8 KB). Loaded Objects now: 1275.
+Memory consumption went from 88.7 MB to 88.7 MB.
+Total: 1.996208 ms (FindLiveObjects: 0.042500 ms CreateObjectMapping: 0.012667 ms MarkObjects: 1.916167 ms  DeleteObjects: 0.024125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BloomComponent.cs: 755f611bb4d32a54d162192a9fc6dd86 -> 
+  custom:scripting/monoscript/fileName/MotionBlurComponent.cs: 6cf5a99eefa473d803af3e64f841a0a6 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditor.cs: 5454250018fe1f45305c6e2bbb867603 -> 
+  custom:scripting/monoscript/fileName/RiderAssetPostprocessor.cs: e6ad4f374cd20986773f123ef82b628b -> e95044eb94149eee30f5192e36c02104
+  custom:scripting/monoscript/fileName/SerializableVersion.cs: 37d1dc623e9e336a7d92f02239a5eea0 -> 66cf30c0372dc35aea960f71af56ff8a
+  custom:scripting/monoscript/fileName/PostProcessingMonitor.cs: d1e07bd8dc8b5f2f5124f2514220156a -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RiderInitializer.cs: 68ef77945a5c56741cb9a0219dfe7657 -> d44ce07d40dcd4d066b6c1c8d08f3519
+  custom:scripting/monoscript/fileName/TestsCallback.cs: 6648df980912e96eaae5c39374242936 -> 420027d2a6ccaf7376f849b0f965edcd
+  custom:scripting/monoscript/fileName/ProjectPart.cs: fa153b81a1be75d157e4b8a3e4771fc2 -> e09789f5d21ec839c23f3a2c8c340a5a
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsComponent.cs: 1b8215a7f6eae55c3fc6a97379498db3 -> 
+  custom:scripting/monoscript/fileName/TestEvent.cs: 600966b5c87333333e8aa4555a03efa6 -> ff94f6973aa3f0db280f3ed0b7577e48
+  custom:scripting/monoscript/fileName/SolutionGuidGenerator.cs: fff5e43ac88ff72f14745857eb692caa -> 39a21c4f5e351b9b4a2916e800641a4a
+  custom:scripting/monoscript/fileName/DitheringModel.cs: fa99c50231ddc7ca26b5d6c9a68b4b31 -> 
+  custom:scripting/monoscript/fileName/PackageManagerTracker.cs: 6b4f549427cfb6e5a3495618f2118a44 -> 651bbc6653e509037fd83f80aa48fad7
+  custom:scripting/monoscript/fileName/IFileIO.cs: f591b2fd0e7a5b3d1b89896fce5380e7 -> d1715877724f6e7813b95bae6fbc24d5
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: a0d3abed53c1ab486b2b816d527a8c92 -> 2bbfb8fc762d145b0b8f0404790fa10d
+  custom:scripting/monoscript/fileName/MaterialFactory.cs: 39b00f1518fc675c62e508eb4bdec486 -> 
+  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: 208c293eec47ebea88bea24abfda77aa -> 
+  custom:scripting/monoscript/fileName/MotionBlurModelEditor.cs: 214d77ab75c222685eecaec8c6aed3b0 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorDataPersisted.cs: 86b94c4c59f51e667ab7e1f2d997c184 -> 93e7c36b8be60b7055550adb6ace534f
+  custom:scripting/monoscript/fileName/RiderPathUtil.cs: b3d293b09b57cc7b91d500a8b861ad70 -> a77167e74e3a3d01856e2c8265c09e64
+  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: 4b6bc01a6288a606d1a3fe94f621633b -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModel.cs: ac26bcd19cab8c88e9b65cb75ee1c356 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RiderMenu.cs: 2f14cf7eed9a2ad63962ab0ec2641b7b -> a430c0ff873704a92fbd3fa96f173c8d
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ColorGradingComponent.cs: fc28099e3cee649b1f5925a07b57ea96 -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: 3ec1a95fcab585aeb5b64b4a7e03330a -> b2548d11c5a56238ffab3a68b5dcee26
+  custom:scripting/monoscript/fileName/EditorPluginInterop.cs: 1a28103090f24bb43afd0997a69f9b48 -> 087796556f1ed2025e28209e52d82ccc
+  custom:scripting/monoscript/fileName/TrackballAttribute.cs: f1962deba67196a6cd6b7953be1caf36 -> 
+  custom:scripting/monoscript/fileName/UserLutModel.cs: ce559ad59b29fc066f37249281afd441 -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionComponent.cs: ae5a7089fb97a5a97a8f11138ce7c9d2 -> 
+  custom:scripting/monoscript/fileName/PostProcessingProfile.cs: e94a21971fab43a541218a4f91e0403c -> 
+  custom:scripting/monoscript/fileName/GraphicsUtils.cs: f7df21c2acb52bb931f99c0a424b6be0 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldComponent.cs: b0afd8f8844e3e4017df6130c14d0dfc -> 
+  custom:scripting/monoscript/fileName/EditorResources.cs: 9f83d1aedff2fa20e157243f0913ea0e -> 
+  custom:scripting/monoscript/fileName/MinAttribute.cs: 941c73502025168e3301edfeaed1b25e -> 
+  custom:scripting/monoscript/fileName/GrainComponent.cs: fae958f48caa0fab6bcf7f9c48b915e1 -> 
+  custom:scripting/monoscript/fileName/ColorGradingModelEditor.cs: d8393f813d799206976f65da1ab781ef -> 
+  custom:scripting/monoscript/fileName/ColorGradingCurve.cs: e1e989893ee31e7801923212f0468312 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModel.cs: 325b0130eaada61513aeac7b8c97a9d7 -> 
+  custom:scripting/monoscript/fileName/UserLutModelEditor.cs: 342104b23101d3bfd45391c0769a34cf -> 
+  custom:scripting/monoscript/fileName/FogComponent.cs: 2dfe6d4c859eabd11b82ff8fc7d7ad22 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationModel.cs: 3f166f1ecbc6f39ed2f6b10cbc5b4ba4 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsModel.cs: 4a09809f2c0ed6cca27229b06ce1d289 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VignetteModel.cs: ab6733272f937ac0155aab47b4a8e58e -> 
+  custom:scripting/monoscript/fileName/RenderTextureFactory.cs: b11bc916a1a88ed67d986ee69a536511 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorData.cs: ac763da56c18afcbbc99b7cf67651110 -> fb9aed0c9d95878995d450a00d549f78
+  custom:scripting/monoscript/fileName/FogModelEditor.cs: 64b75506b78e4411272a1d25aff5dcfd -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModel.cs: 5bcc92c7d981d480ed07d6af7dd1a959 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModelEditor.cs: 7f4dd9c1675fb2cce031c62e047539ef -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModelEditor.cs: 99a92cb6d65b3a11adad7b285256ee66 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModelEditor.cs: ee1343b3ceaceb2c63bf272baf871cbd -> 
+  custom:scripting/monoscript/fileName/Discovery.cs: b8d0211ead4eaec682b9d12d86ef1994 -> 6c003b3862e6a4a3190ec655cba01f40
+  custom:scripting/monoscript/fileName/VignetteComponent.cs: 293deb083808f71d2d18d818ef588272 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditorAttribute.cs: 84467b1ef2082fe26f00bdedc34db836 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunCallback.cs: 6109fbb45740725119ed9609ae2cb6ab -> 0f406f4b09f3b7bd1bfd8f867df2e978
+  custom:scripting/monoscript/fileName/DefaultPostFxModelEditor.cs: e4be4b1d308934dee3a6a91920dc1b3d -> 
+  custom:scripting/monoscript/fileName/ReflectionUtils.cs: 14b4c7d2cdf78d9b158d00fb2c3c24b2 -> 
+  custom:scripting/monoscript/fileName/CallbackInitializer.cs: d227e453fc55ff33477a0f8f90826257 -> b6cad195ed4890ee7aed8c4de2807157
+  custom:scripting/monoscript/fileName/FogModel.cs: c4cd4da1fb97c7abf787083602f52bf5 -> 
+  custom:scripting/monoscript/fileName/MinDrawer.cs: f0b5a34ad7cefeba48c04a270d4abfc9 -> 
+  custom:scripting/monoscript/fileName/RiderTestRunner.cs: a09449e7603772ef60589c92d46be0c3 -> b9ea3ff0565ae2955ea8f15dd6e578d4
+  custom:scripting/monoscript/fileName/TaaComponent.cs: 7c343e97072a6712c3a2b01e75fdb7fa -> 
+  custom:scripting/monoscript/fileName/PostProcessingFactory.cs: f4e35cbabcf5e0add8e963bb8ab175b2 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunEventsHandler.cs: a9e2807330a6f2c36d667ee1a2c4f414 -> 9ebe337aca2d71ac02fccc5c886e0668
+  custom:scripting/monoscript/fileName/WaveformMonitor.cs: fa17c20b734d78632b46f64cd9d4f8c6 -> 
+  custom:scripting/monoscript/fileName/ParadeMonitor.cs: cae69c77ac3a6bd03788e390b0793dce -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/StringUtils.cs: 200f5307597eeab8c00b86aef1ee800c -> 2be5fb51e6f0660c955416f4d8f6f7ad
+  custom:scripting/monoscript/fileName/DitheringComponent.cs: 83d905897534466960141b85361bb6b4 -> 
+  custom:scripting/monoscript/fileName/ExampleWheelController.cs: 9600d370c57ff0da5766666ba4365a29 -> 
+  custom:scripting/monoscript/fileName/BloomModelEditor.cs: 82667d6cbb2e9deab73f43bddd4cb3ad -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GetSetAttribute.cs: b786c1938e0c0f5ecaf463807c2d7653 -> 
+  custom:scripting/monoscript/fileName/CommandLineParser.cs: a5ce035a20fc026f12db6b796b898d65 -> 25c8ce1c1ecf3aba3903da1187b88166
+  custom:scripting/monoscript/fileName/DepthOfFieldModel.cs: ab243c09a4b44fd7a53f73051db01cbc -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditor.cs: 4a0f526f1b31c7d9c331714a284a6791 -> 4ddd2581343451de6f696adaf8c0958f
+  custom:scripting/monoscript/fileName/HistogramMonitor.cs: 89c185ea097a2554de07760bc4248c43 -> 
+  custom:scripting/monoscript/fileName/FxStyles.cs: 82e974921467cb55809ecad82f38f7ca -> 
+  custom:scripting/monoscript/fileName/FileIOProvider.cs: 86c8e5e2df704262ebd9971ddef53615 -> 93247588b72fb2c2d642acc7359e639c
+  custom:scripting/monoscript/fileName/PostProcessingBehaviourEditor.cs: 066ae7bf767a73228aa8d9e772743d81 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModel.cs: 2f64caba6afa59bc78865f13b6f9065d -> 
+  custom:scripting/monoscript/fileName/PluginSettings.cs: 727424108b6598a2387dd87fa5ed687f -> 4ee82f9c59f87f1dece05e6b9763c365
+  custom:scripting/monoscript/fileName/PostProcessingContext.cs: be8a0bc1565c6324b1fd40a33f66279b -> 
+  custom:scripting/monoscript/fileName/LastWriteTracker.cs: e117305b6c922c0adb79679b01fac2c8 -> c78bd5b4fa28ac60ca7ed50f9c2b99d2
+  custom:scripting/monoscript/fileName/FileSystemUtil.cs: 6856b263874916a35e9cabf0faa6bad8 -> 3a1d37ca0015bdfbd542c903cf738043
+  custom:scripting/monoscript/fileName/ColorGradingModel.cs: d1c2ef15f5e9e4868052777d51361b40 -> 
+  custom:scripting/monoscript/fileName/EditorGUIHelper.cs: 4a11466b474c4ddf8b0e969391a97509 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldModelEditor.cs: c9db63f1a070d3e8ad359080de3aa855 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationComponent.cs: cda95994b71ba23d0c0f0fe0f241aab9 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModel.cs: 507d9c80d381478e1c14f5bfe34012ae -> 
+  custom:scripting/monoscript/fileName/VignetteModelEditor.cs: e544ec17c4d10dc7a011d82b890e61d2 -> 
+  custom:scripting/monoscript/fileName/IGenerator.cs: e53c624814a84a932e0860f584f7deb9 -> 7460422a7cf0a449df86606b185ffb0e
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/UserLutComponent.cs: 944143ce5f543a40c92ecea777f35ae4 -> 
+  custom:scripting/monoscript/fileName/IAssemblyNameProvider.cs: de79d586ca221e8ac344be669ec25f7e -> 005dc9d9c07dc825fea94e0fbc841e20
+  custom:scripting/monoscript/fileName/LibcNativeInterop.cs: c73f097a3ef89ebf41e7633fc6e71aff -> 77c1db6bef2e1063dc874463b520ed18
+  custom:scripting/monoscript/fileName/CallbackData.cs: 244f50edb9a06e595eeca45abc022db5 -> b15b13425eedd78fb5c4fc4930a9e8b4
+  custom:scripting/monoscript/fileName/StartUpMethodExecutor.cs: ecce11359b7760342ad14bc80bad2220 -> 45cc23141d36926881d69e4d2f8950c7
+  custom:scripting/monoscript/fileName/CurveEditor.cs: 6cba1958072d99c0ff92650cfaf3fa87 -> 
+  custom:scripting/monoscript/fileName/TrackballGroupAttribute.cs: 6d071733b141a3fb3360b110560ed1cc -> 
+  custom:scripting/monoscript/fileName/DitheringModelEditor.cs: 98ce08c54d480e2032b7e03104c8332a -> 
+  custom:scripting/monoscript/fileName/RiderStyles.cs: cd129c7ac3790ffa53f73149c91a781a -> 871a958d95b29e48af876a5d411c626a
+  custom:scripting/monoscript/fileName/GUIDProvider.cs: 7908ce21a0551f501997ec920c162534 -> 3e1b7e2f9f1116bc475fe8e583750bd5
+  custom:scripting/monoscript/fileName/PostProcessingInspector.cs: b617eaa0b6e3e752eaf9e9a89203dc82 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModelEditor.cs: 0f2b80733b1449af72ed38ee469e2a30 -> 
+  custom:scripting/monoscript/fileName/PostProcessingBehaviour.cs: b0fbf7f67aeee9a6f7db03386dbc8c1e -> 
+  custom:scripting/monoscript/fileName/TrackballGroupDrawer.cs: 36f1db6df3ee9bb6e23950968f1fa293 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsEditor.cs: 315fb7cf21f3f53a30e4961d88029d42 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionComponent.cs: 79ad7ef64576d014e73a91b6c3af0688 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationComponent.cs: 0cb2aaf8cdc20c0baee2205168cbc73c -> 
+  custom:scripting/monoscript/fileName/GrainModelEditor.cs: fc1fd3126ff1a32e5c9c0211f235c203 -> 
+  custom:scripting/monoscript/fileName/GetSetDrawer.cs: 19bba8dcf0569bc9ff3f3eb8733c91d8 -> 
+  custom:scripting/monoscript/fileName/MotionBlurModel.cs: 4e24ef1d444a45a9e0056ed75c7c7eb7 -> 
+  custom:scripting/monoscript/fileName/BloomModel.cs: b4ba3e478c2698eb99512ead9d78d360 -> 
+  custom:scripting/monoscript/fileName/FxaaComponent.cs: 9d1fd3efb92e1fef6fd176ee45003f08 -> 
+  custom:scripting/monoscript/fileName/GrainModel.cs: ce4589c9bbcb55f8f632b6617dc5d1f0 -> 
+  custom:scripting/monoscript/fileName/PostProcessingComponent.cs: 85236d6b86a55b2f46a14367ab625049 -> 
+  custom:scripting/monoscript/fileName/IGUIDGenerator.cs: 153317bb7bf55f081a729ef02e3a13bd -> bad2c2e3b2dbec33c36bdfd6fc903e19
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x30a737000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.281 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.246 seconds
+Domain Reload Profiling: 528ms
+	BeginReloadAssembly (74ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (89ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (247ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (115ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (22ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10 unused Assets / (24.8 KB). Loaded Objects now: 1278.
+Memory consumption went from 93.9 MB to 93.8 MB.
+Total: 1.703834 ms (FindLiveObjects: 0.042500 ms CreateObjectMapping: 0.013125 ms MarkObjects: 1.628875 ms  DeleteObjects: 0.019125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BloomComponent.cs: 755f611bb4d32a54d162192a9fc6dd86 -> 
+  custom:scripting/monoscript/fileName/MotionBlurComponent.cs: 6cf5a99eefa473d803af3e64f841a0a6 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditor.cs: 5454250018fe1f45305c6e2bbb867603 -> 
+  custom:scripting/monoscript/fileName/RiderAssetPostprocessor.cs: e6ad4f374cd20986773f123ef82b628b -> e95044eb94149eee30f5192e36c02104
+  custom:scripting/monoscript/fileName/SerializableVersion.cs: 37d1dc623e9e336a7d92f02239a5eea0 -> 66cf30c0372dc35aea960f71af56ff8a
+  custom:scripting/monoscript/fileName/PostProcessingMonitor.cs: d1e07bd8dc8b5f2f5124f2514220156a -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RiderInitializer.cs: 68ef77945a5c56741cb9a0219dfe7657 -> d44ce07d40dcd4d066b6c1c8d08f3519
+  custom:scripting/monoscript/fileName/TestsCallback.cs: 6648df980912e96eaae5c39374242936 -> 420027d2a6ccaf7376f849b0f965edcd
+  custom:scripting/monoscript/fileName/ProjectPart.cs: fa153b81a1be75d157e4b8a3e4771fc2 -> e09789f5d21ec839c23f3a2c8c340a5a
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsComponent.cs: 1b8215a7f6eae55c3fc6a97379498db3 -> 
+  custom:scripting/monoscript/fileName/TestEvent.cs: 600966b5c87333333e8aa4555a03efa6 -> ff94f6973aa3f0db280f3ed0b7577e48
+  custom:scripting/monoscript/fileName/SolutionGuidGenerator.cs: fff5e43ac88ff72f14745857eb692caa -> 39a21c4f5e351b9b4a2916e800641a4a
+  custom:scripting/monoscript/fileName/DitheringModel.cs: fa99c50231ddc7ca26b5d6c9a68b4b31 -> 
+  custom:scripting/monoscript/fileName/PackageManagerTracker.cs: 6b4f549427cfb6e5a3495618f2118a44 -> 651bbc6653e509037fd83f80aa48fad7
+  custom:scripting/monoscript/fileName/IFileIO.cs: f591b2fd0e7a5b3d1b89896fce5380e7 -> d1715877724f6e7813b95bae6fbc24d5
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: a0d3abed53c1ab486b2b816d527a8c92 -> 2bbfb8fc762d145b0b8f0404790fa10d
+  custom:scripting/monoscript/fileName/MaterialFactory.cs: 39b00f1518fc675c62e508eb4bdec486 -> 
+  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: 208c293eec47ebea88bea24abfda77aa -> 
+  custom:scripting/monoscript/fileName/MotionBlurModelEditor.cs: 214d77ab75c222685eecaec8c6aed3b0 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorDataPersisted.cs: 86b94c4c59f51e667ab7e1f2d997c184 -> 93e7c36b8be60b7055550adb6ace534f
+  custom:scripting/monoscript/fileName/RiderPathUtil.cs: b3d293b09b57cc7b91d500a8b861ad70 -> a77167e74e3a3d01856e2c8265c09e64
+  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: 4b6bc01a6288a606d1a3fe94f621633b -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModel.cs: ac26bcd19cab8c88e9b65cb75ee1c356 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RiderMenu.cs: 2f14cf7eed9a2ad63962ab0ec2641b7b -> a430c0ff873704a92fbd3fa96f173c8d
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ColorGradingComponent.cs: fc28099e3cee649b1f5925a07b57ea96 -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: 3ec1a95fcab585aeb5b64b4a7e03330a -> b2548d11c5a56238ffab3a68b5dcee26
+  custom:scripting/monoscript/fileName/EditorPluginInterop.cs: 1a28103090f24bb43afd0997a69f9b48 -> 087796556f1ed2025e28209e52d82ccc
+  custom:scripting/monoscript/fileName/TrackballAttribute.cs: f1962deba67196a6cd6b7953be1caf36 -> 
+  custom:scripting/monoscript/fileName/UserLutModel.cs: ce559ad59b29fc066f37249281afd441 -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionComponent.cs: ae5a7089fb97a5a97a8f11138ce7c9d2 -> 
+  custom:scripting/monoscript/fileName/PostProcessingProfile.cs: e94a21971fab43a541218a4f91e0403c -> 
+  custom:scripting/monoscript/fileName/GraphicsUtils.cs: f7df21c2acb52bb931f99c0a424b6be0 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldComponent.cs: b0afd8f8844e3e4017df6130c14d0dfc -> 
+  custom:scripting/monoscript/fileName/EditorResources.cs: 9f83d1aedff2fa20e157243f0913ea0e -> 
+  custom:scripting/monoscript/fileName/MinAttribute.cs: 941c73502025168e3301edfeaed1b25e -> 
+  custom:scripting/monoscript/fileName/GrainComponent.cs: fae958f48caa0fab6bcf7f9c48b915e1 -> 
+  custom:scripting/monoscript/fileName/ColorGradingModelEditor.cs: d8393f813d799206976f65da1ab781ef -> 
+  custom:scripting/monoscript/fileName/ColorGradingCurve.cs: e1e989893ee31e7801923212f0468312 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModel.cs: 325b0130eaada61513aeac7b8c97a9d7 -> 
+  custom:scripting/monoscript/fileName/UserLutModelEditor.cs: 342104b23101d3bfd45391c0769a34cf -> 
+  custom:scripting/monoscript/fileName/FogComponent.cs: 2dfe6d4c859eabd11b82ff8fc7d7ad22 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationModel.cs: 3f166f1ecbc6f39ed2f6b10cbc5b4ba4 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsModel.cs: 4a09809f2c0ed6cca27229b06ce1d289 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VignetteModel.cs: ab6733272f937ac0155aab47b4a8e58e -> 
+  custom:scripting/monoscript/fileName/RenderTextureFactory.cs: b11bc916a1a88ed67d986ee69a536511 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorData.cs: ac763da56c18afcbbc99b7cf67651110 -> fb9aed0c9d95878995d450a00d549f78
+  custom:scripting/monoscript/fileName/FogModelEditor.cs: 64b75506b78e4411272a1d25aff5dcfd -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModel.cs: 5bcc92c7d981d480ed07d6af7dd1a959 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModelEditor.cs: 7f4dd9c1675fb2cce031c62e047539ef -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModelEditor.cs: 99a92cb6d65b3a11adad7b285256ee66 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModelEditor.cs: ee1343b3ceaceb2c63bf272baf871cbd -> 
+  custom:scripting/monoscript/fileName/Discovery.cs: b8d0211ead4eaec682b9d12d86ef1994 -> 6c003b3862e6a4a3190ec655cba01f40
+  custom:scripting/monoscript/fileName/VignetteComponent.cs: 293deb083808f71d2d18d818ef588272 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditorAttribute.cs: 84467b1ef2082fe26f00bdedc34db836 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunCallback.cs: 6109fbb45740725119ed9609ae2cb6ab -> 0f406f4b09f3b7bd1bfd8f867df2e978
+  custom:scripting/monoscript/fileName/DefaultPostFxModelEditor.cs: e4be4b1d308934dee3a6a91920dc1b3d -> 
+  custom:scripting/monoscript/fileName/ReflectionUtils.cs: 14b4c7d2cdf78d9b158d00fb2c3c24b2 -> 
+  custom:scripting/monoscript/fileName/CallbackInitializer.cs: d227e453fc55ff33477a0f8f90826257 -> b6cad195ed4890ee7aed8c4de2807157
+  custom:scripting/monoscript/fileName/FogModel.cs: c4cd4da1fb97c7abf787083602f52bf5 -> 
+  custom:scripting/monoscript/fileName/MinDrawer.cs: f0b5a34ad7cefeba48c04a270d4abfc9 -> 
+  custom:scripting/monoscript/fileName/RiderTestRunner.cs: a09449e7603772ef60589c92d46be0c3 -> b9ea3ff0565ae2955ea8f15dd6e578d4
+  custom:scripting/monoscript/fileName/TaaComponent.cs: 7c343e97072a6712c3a2b01e75fdb7fa -> 
+  custom:scripting/monoscript/fileName/PostProcessingFactory.cs: f4e35cbabcf5e0add8e963bb8ab175b2 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunEventsHandler.cs: a9e2807330a6f2c36d667ee1a2c4f414 -> 9ebe337aca2d71ac02fccc5c886e0668
+  custom:scripting/monoscript/fileName/WaveformMonitor.cs: fa17c20b734d78632b46f64cd9d4f8c6 -> 
+  custom:scripting/monoscript/fileName/ParadeMonitor.cs: cae69c77ac3a6bd03788e390b0793dce -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/StringUtils.cs: 200f5307597eeab8c00b86aef1ee800c -> 2be5fb51e6f0660c955416f4d8f6f7ad
+  custom:scripting/monoscript/fileName/DitheringComponent.cs: 83d905897534466960141b85361bb6b4 -> 
+  custom:scripting/monoscript/fileName/ExampleWheelController.cs: 9600d370c57ff0da5766666ba4365a29 -> 
+  custom:scripting/monoscript/fileName/BloomModelEditor.cs: 82667d6cbb2e9deab73f43bddd4cb3ad -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GetSetAttribute.cs: b786c1938e0c0f5ecaf463807c2d7653 -> 
+  custom:scripting/monoscript/fileName/CommandLineParser.cs: a5ce035a20fc026f12db6b796b898d65 -> 25c8ce1c1ecf3aba3903da1187b88166
+  custom:scripting/monoscript/fileName/DepthOfFieldModel.cs: ab243c09a4b44fd7a53f73051db01cbc -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditor.cs: 4a0f526f1b31c7d9c331714a284a6791 -> 4ddd2581343451de6f696adaf8c0958f
+  custom:scripting/monoscript/fileName/HistogramMonitor.cs: 89c185ea097a2554de07760bc4248c43 -> 
+  custom:scripting/monoscript/fileName/FxStyles.cs: 82e974921467cb55809ecad82f38f7ca -> 
+  custom:scripting/monoscript/fileName/FileIOProvider.cs: 86c8e5e2df704262ebd9971ddef53615 -> 93247588b72fb2c2d642acc7359e639c
+  custom:scripting/monoscript/fileName/PostProcessingBehaviourEditor.cs: 066ae7bf767a73228aa8d9e772743d81 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModel.cs: 2f64caba6afa59bc78865f13b6f9065d -> 
+  custom:scripting/monoscript/fileName/PluginSettings.cs: 727424108b6598a2387dd87fa5ed687f -> 4ee82f9c59f87f1dece05e6b9763c365
+  custom:scripting/monoscript/fileName/PostProcessingContext.cs: be8a0bc1565c6324b1fd40a33f66279b -> 
+  custom:scripting/monoscript/fileName/LastWriteTracker.cs: e117305b6c922c0adb79679b01fac2c8 -> c78bd5b4fa28ac60ca7ed50f9c2b99d2
+  custom:scripting/monoscript/fileName/FileSystemUtil.cs: 6856b263874916a35e9cabf0faa6bad8 -> 3a1d37ca0015bdfbd542c903cf738043
+  custom:scripting/monoscript/fileName/ColorGradingModel.cs: d1c2ef15f5e9e4868052777d51361b40 -> 
+  custom:scripting/monoscript/fileName/EditorGUIHelper.cs: 4a11466b474c4ddf8b0e969391a97509 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldModelEditor.cs: c9db63f1a070d3e8ad359080de3aa855 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationComponent.cs: cda95994b71ba23d0c0f0fe0f241aab9 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModel.cs: 507d9c80d381478e1c14f5bfe34012ae -> 
+  custom:scripting/monoscript/fileName/VignetteModelEditor.cs: e544ec17c4d10dc7a011d82b890e61d2 -> 
+  custom:scripting/monoscript/fileName/IGenerator.cs: e53c624814a84a932e0860f584f7deb9 -> 7460422a7cf0a449df86606b185ffb0e
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/UserLutComponent.cs: 944143ce5f543a40c92ecea777f35ae4 -> 
+  custom:scripting/monoscript/fileName/IAssemblyNameProvider.cs: de79d586ca221e8ac344be669ec25f7e -> 005dc9d9c07dc825fea94e0fbc841e20
+  custom:scripting/monoscript/fileName/LibcNativeInterop.cs: c73f097a3ef89ebf41e7633fc6e71aff -> 77c1db6bef2e1063dc874463b520ed18
+  custom:scripting/monoscript/fileName/CallbackData.cs: 244f50edb9a06e595eeca45abc022db5 -> b15b13425eedd78fb5c4fc4930a9e8b4
+  custom:scripting/monoscript/fileName/StartUpMethodExecutor.cs: ecce11359b7760342ad14bc80bad2220 -> 45cc23141d36926881d69e4d2f8950c7
+  custom:scripting/monoscript/fileName/CurveEditor.cs: 6cba1958072d99c0ff92650cfaf3fa87 -> 
+  custom:scripting/monoscript/fileName/TrackballGroupAttribute.cs: 6d071733b141a3fb3360b110560ed1cc -> 
+  custom:scripting/monoscript/fileName/DitheringModelEditor.cs: 98ce08c54d480e2032b7e03104c8332a -> 
+  custom:scripting/monoscript/fileName/RiderStyles.cs: cd129c7ac3790ffa53f73149c91a781a -> 871a958d95b29e48af876a5d411c626a
+  custom:scripting/monoscript/fileName/GUIDProvider.cs: 7908ce21a0551f501997ec920c162534 -> 3e1b7e2f9f1116bc475fe8e583750bd5
+  custom:scripting/monoscript/fileName/PostProcessingInspector.cs: b617eaa0b6e3e752eaf9e9a89203dc82 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModelEditor.cs: 0f2b80733b1449af72ed38ee469e2a30 -> 
+  custom:scripting/monoscript/fileName/PostProcessingBehaviour.cs: b0fbf7f67aeee9a6f7db03386dbc8c1e -> 
+  custom:scripting/monoscript/fileName/TrackballGroupDrawer.cs: 36f1db6df3ee9bb6e23950968f1fa293 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsEditor.cs: 315fb7cf21f3f53a30e4961d88029d42 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionComponent.cs: 79ad7ef64576d014e73a91b6c3af0688 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationComponent.cs: 0cb2aaf8cdc20c0baee2205168cbc73c -> 
+  custom:scripting/monoscript/fileName/GrainModelEditor.cs: fc1fd3126ff1a32e5c9c0211f235c203 -> 
+  custom:scripting/monoscript/fileName/GetSetDrawer.cs: 19bba8dcf0569bc9ff3f3eb8733c91d8 -> 
+  custom:scripting/monoscript/fileName/MotionBlurModel.cs: 4e24ef1d444a45a9e0056ed75c7c7eb7 -> 
+  custom:scripting/monoscript/fileName/BloomModel.cs: b4ba3e478c2698eb99512ead9d78d360 -> 
+  custom:scripting/monoscript/fileName/FxaaComponent.cs: 9d1fd3efb92e1fef6fd176ee45003f08 -> 
+  custom:scripting/monoscript/fileName/GrainModel.cs: ce4589c9bbcb55f8f632b6617dc5d1f0 -> 
+  custom:scripting/monoscript/fileName/PostProcessingComponent.cs: 85236d6b86a55b2f46a14367ab625049 -> 
+  custom:scripting/monoscript/fileName/IGUIDGenerator.cs: 153317bb7bf55f081a729ef02e3a13bd -> bad2c2e3b2dbec33c36bdfd6fc903e19
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x30a737000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.286 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.248 seconds
+Domain Reload Profiling: 534ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (89ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (248ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (116ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10 unused Assets / (24.8 KB). Loaded Objects now: 1281.
+Memory consumption went from 98.9 MB to 98.9 MB.
+Total: 1.836041 ms (FindLiveObjects: 0.047041 ms CreateObjectMapping: 0.013250 ms MarkObjects: 1.752542 ms  DeleteObjects: 0.022375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BloomComponent.cs: 755f611bb4d32a54d162192a9fc6dd86 -> 
+  custom:scripting/monoscript/fileName/MotionBlurComponent.cs: 6cf5a99eefa473d803af3e64f841a0a6 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditor.cs: 5454250018fe1f45305c6e2bbb867603 -> 
+  custom:scripting/monoscript/fileName/RiderAssetPostprocessor.cs: e6ad4f374cd20986773f123ef82b628b -> e95044eb94149eee30f5192e36c02104
+  custom:scripting/monoscript/fileName/SerializableVersion.cs: 37d1dc623e9e336a7d92f02239a5eea0 -> 66cf30c0372dc35aea960f71af56ff8a
+  custom:scripting/monoscript/fileName/PostProcessingMonitor.cs: d1e07bd8dc8b5f2f5124f2514220156a -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RiderInitializer.cs: 68ef77945a5c56741cb9a0219dfe7657 -> d44ce07d40dcd4d066b6c1c8d08f3519
+  custom:scripting/monoscript/fileName/TestsCallback.cs: 6648df980912e96eaae5c39374242936 -> 420027d2a6ccaf7376f849b0f965edcd
+  custom:scripting/monoscript/fileName/ProjectPart.cs: fa153b81a1be75d157e4b8a3e4771fc2 -> e09789f5d21ec839c23f3a2c8c340a5a
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsComponent.cs: 1b8215a7f6eae55c3fc6a97379498db3 -> 
+  custom:scripting/monoscript/fileName/TestEvent.cs: 600966b5c87333333e8aa4555a03efa6 -> ff94f6973aa3f0db280f3ed0b7577e48
+  custom:scripting/monoscript/fileName/SolutionGuidGenerator.cs: fff5e43ac88ff72f14745857eb692caa -> 39a21c4f5e351b9b4a2916e800641a4a
+  custom:scripting/monoscript/fileName/DitheringModel.cs: fa99c50231ddc7ca26b5d6c9a68b4b31 -> 
+  custom:scripting/monoscript/fileName/PackageManagerTracker.cs: 6b4f549427cfb6e5a3495618f2118a44 -> 651bbc6653e509037fd83f80aa48fad7
+  custom:scripting/monoscript/fileName/IFileIO.cs: f591b2fd0e7a5b3d1b89896fce5380e7 -> d1715877724f6e7813b95bae6fbc24d5
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: a0d3abed53c1ab486b2b816d527a8c92 -> 2bbfb8fc762d145b0b8f0404790fa10d
+  custom:scripting/monoscript/fileName/MaterialFactory.cs: 39b00f1518fc675c62e508eb4bdec486 -> 
+  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: 208c293eec47ebea88bea24abfda77aa -> 
+  custom:scripting/monoscript/fileName/MotionBlurModelEditor.cs: 214d77ab75c222685eecaec8c6aed3b0 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorDataPersisted.cs: 86b94c4c59f51e667ab7e1f2d997c184 -> 93e7c36b8be60b7055550adb6ace534f
+  custom:scripting/monoscript/fileName/RiderPathUtil.cs: b3d293b09b57cc7b91d500a8b861ad70 -> a77167e74e3a3d01856e2c8265c09e64
+  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: 4b6bc01a6288a606d1a3fe94f621633b -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModel.cs: ac26bcd19cab8c88e9b65cb75ee1c356 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RiderMenu.cs: 2f14cf7eed9a2ad63962ab0ec2641b7b -> a430c0ff873704a92fbd3fa96f173c8d
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ColorGradingComponent.cs: fc28099e3cee649b1f5925a07b57ea96 -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: 3ec1a95fcab585aeb5b64b4a7e03330a -> b2548d11c5a56238ffab3a68b5dcee26
+  custom:scripting/monoscript/fileName/EditorPluginInterop.cs: 1a28103090f24bb43afd0997a69f9b48 -> 087796556f1ed2025e28209e52d82ccc
+  custom:scripting/monoscript/fileName/TrackballAttribute.cs: f1962deba67196a6cd6b7953be1caf36 -> 
+  custom:scripting/monoscript/fileName/UserLutModel.cs: ce559ad59b29fc066f37249281afd441 -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionComponent.cs: ae5a7089fb97a5a97a8f11138ce7c9d2 -> 
+  custom:scripting/monoscript/fileName/PostProcessingProfile.cs: e94a21971fab43a541218a4f91e0403c -> 
+  custom:scripting/monoscript/fileName/GraphicsUtils.cs: f7df21c2acb52bb931f99c0a424b6be0 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldComponent.cs: b0afd8f8844e3e4017df6130c14d0dfc -> 
+  custom:scripting/monoscript/fileName/EditorResources.cs: 9f83d1aedff2fa20e157243f0913ea0e -> 
+  custom:scripting/monoscript/fileName/MinAttribute.cs: 941c73502025168e3301edfeaed1b25e -> 
+  custom:scripting/monoscript/fileName/GrainComponent.cs: fae958f48caa0fab6bcf7f9c48b915e1 -> 
+  custom:scripting/monoscript/fileName/ColorGradingModelEditor.cs: d8393f813d799206976f65da1ab781ef -> 
+  custom:scripting/monoscript/fileName/ColorGradingCurve.cs: e1e989893ee31e7801923212f0468312 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModel.cs: 325b0130eaada61513aeac7b8c97a9d7 -> 
+  custom:scripting/monoscript/fileName/UserLutModelEditor.cs: 342104b23101d3bfd45391c0769a34cf -> 
+  custom:scripting/monoscript/fileName/FogComponent.cs: 2dfe6d4c859eabd11b82ff8fc7d7ad22 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationModel.cs: 3f166f1ecbc6f39ed2f6b10cbc5b4ba4 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsModel.cs: 4a09809f2c0ed6cca27229b06ce1d289 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VignetteModel.cs: ab6733272f937ac0155aab47b4a8e58e -> 
+  custom:scripting/monoscript/fileName/RenderTextureFactory.cs: b11bc916a1a88ed67d986ee69a536511 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorData.cs: ac763da56c18afcbbc99b7cf67651110 -> fb9aed0c9d95878995d450a00d549f78
+  custom:scripting/monoscript/fileName/FogModelEditor.cs: 64b75506b78e4411272a1d25aff5dcfd -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModel.cs: 5bcc92c7d981d480ed07d6af7dd1a959 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModelEditor.cs: 7f4dd9c1675fb2cce031c62e047539ef -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModelEditor.cs: 99a92cb6d65b3a11adad7b285256ee66 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModelEditor.cs: ee1343b3ceaceb2c63bf272baf871cbd -> 
+  custom:scripting/monoscript/fileName/Discovery.cs: b8d0211ead4eaec682b9d12d86ef1994 -> 6c003b3862e6a4a3190ec655cba01f40
+  custom:scripting/monoscript/fileName/VignetteComponent.cs: 293deb083808f71d2d18d818ef588272 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditorAttribute.cs: 84467b1ef2082fe26f00bdedc34db836 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunCallback.cs: 6109fbb45740725119ed9609ae2cb6ab -> 0f406f4b09f3b7bd1bfd8f867df2e978
+  custom:scripting/monoscript/fileName/DefaultPostFxModelEditor.cs: e4be4b1d308934dee3a6a91920dc1b3d -> 
+  custom:scripting/monoscript/fileName/ReflectionUtils.cs: 14b4c7d2cdf78d9b158d00fb2c3c24b2 -> 
+  custom:scripting/monoscript/fileName/CallbackInitializer.cs: d227e453fc55ff33477a0f8f90826257 -> b6cad195ed4890ee7aed8c4de2807157
+  custom:scripting/monoscript/fileName/FogModel.cs: c4cd4da1fb97c7abf787083602f52bf5 -> 
+  custom:scripting/monoscript/fileName/MinDrawer.cs: f0b5a34ad7cefeba48c04a270d4abfc9 -> 
+  custom:scripting/monoscript/fileName/RiderTestRunner.cs: a09449e7603772ef60589c92d46be0c3 -> b9ea3ff0565ae2955ea8f15dd6e578d4
+  custom:scripting/monoscript/fileName/TaaComponent.cs: 7c343e97072a6712c3a2b01e75fdb7fa -> 
+  custom:scripting/monoscript/fileName/PostProcessingFactory.cs: f4e35cbabcf5e0add8e963bb8ab175b2 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunEventsHandler.cs: a9e2807330a6f2c36d667ee1a2c4f414 -> 9ebe337aca2d71ac02fccc5c886e0668
+  custom:scripting/monoscript/fileName/WaveformMonitor.cs: fa17c20b734d78632b46f64cd9d4f8c6 -> 
+  custom:scripting/monoscript/fileName/ParadeMonitor.cs: cae69c77ac3a6bd03788e390b0793dce -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/StringUtils.cs: 200f5307597eeab8c00b86aef1ee800c -> 2be5fb51e6f0660c955416f4d8f6f7ad
+  custom:scripting/monoscript/fileName/DitheringComponent.cs: 83d905897534466960141b85361bb6b4 -> 
+  custom:scripting/monoscript/fileName/ExampleWheelController.cs: 9600d370c57ff0da5766666ba4365a29 -> 
+  custom:scripting/monoscript/fileName/BloomModelEditor.cs: 82667d6cbb2e9deab73f43bddd4cb3ad -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GetSetAttribute.cs: b786c1938e0c0f5ecaf463807c2d7653 -> 
+  custom:scripting/monoscript/fileName/CommandLineParser.cs: a5ce035a20fc026f12db6b796b898d65 -> 25c8ce1c1ecf3aba3903da1187b88166
+  custom:scripting/monoscript/fileName/DepthOfFieldModel.cs: ab243c09a4b44fd7a53f73051db01cbc -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditor.cs: 4a0f526f1b31c7d9c331714a284a6791 -> 4ddd2581343451de6f696adaf8c0958f
+  custom:scripting/monoscript/fileName/HistogramMonitor.cs: 89c185ea097a2554de07760bc4248c43 -> 
+  custom:scripting/monoscript/fileName/FxStyles.cs: 82e974921467cb55809ecad82f38f7ca -> 
+  custom:scripting/monoscript/fileName/FileIOProvider.cs: 86c8e5e2df704262ebd9971ddef53615 -> 93247588b72fb2c2d642acc7359e639c
+  custom:scripting/monoscript/fileName/PostProcessingBehaviourEditor.cs: 066ae7bf767a73228aa8d9e772743d81 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModel.cs: 2f64caba6afa59bc78865f13b6f9065d -> 
+  custom:scripting/monoscript/fileName/PluginSettings.cs: 727424108b6598a2387dd87fa5ed687f -> 4ee82f9c59f87f1dece05e6b9763c365
+  custom:scripting/monoscript/fileName/PostProcessingContext.cs: be8a0bc1565c6324b1fd40a33f66279b -> 
+  custom:scripting/monoscript/fileName/LastWriteTracker.cs: e117305b6c922c0adb79679b01fac2c8 -> c78bd5b4fa28ac60ca7ed50f9c2b99d2
+  custom:scripting/monoscript/fileName/FileSystemUtil.cs: 6856b263874916a35e9cabf0faa6bad8 -> 3a1d37ca0015bdfbd542c903cf738043
+  custom:scripting/monoscript/fileName/ColorGradingModel.cs: d1c2ef15f5e9e4868052777d51361b40 -> 
+  custom:scripting/monoscript/fileName/EditorGUIHelper.cs: 4a11466b474c4ddf8b0e969391a97509 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldModelEditor.cs: c9db63f1a070d3e8ad359080de3aa855 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationComponent.cs: cda95994b71ba23d0c0f0fe0f241aab9 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModel.cs: 507d9c80d381478e1c14f5bfe34012ae -> 
+  custom:scripting/monoscript/fileName/VignetteModelEditor.cs: e544ec17c4d10dc7a011d82b890e61d2 -> 
+  custom:scripting/monoscript/fileName/IGenerator.cs: e53c624814a84a932e0860f584f7deb9 -> 7460422a7cf0a449df86606b185ffb0e
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/UserLutComponent.cs: 944143ce5f543a40c92ecea777f35ae4 -> 
+  custom:scripting/monoscript/fileName/IAssemblyNameProvider.cs: de79d586ca221e8ac344be669ec25f7e -> 005dc9d9c07dc825fea94e0fbc841e20
+  custom:scripting/monoscript/fileName/LibcNativeInterop.cs: c73f097a3ef89ebf41e7633fc6e71aff -> 77c1db6bef2e1063dc874463b520ed18
+  custom:scripting/monoscript/fileName/CallbackData.cs: 244f50edb9a06e595eeca45abc022db5 -> b15b13425eedd78fb5c4fc4930a9e8b4
+  custom:scripting/monoscript/fileName/StartUpMethodExecutor.cs: ecce11359b7760342ad14bc80bad2220 -> 45cc23141d36926881d69e4d2f8950c7
+  custom:scripting/monoscript/fileName/CurveEditor.cs: 6cba1958072d99c0ff92650cfaf3fa87 -> 
+  custom:scripting/monoscript/fileName/TrackballGroupAttribute.cs: 6d071733b141a3fb3360b110560ed1cc -> 
+  custom:scripting/monoscript/fileName/DitheringModelEditor.cs: 98ce08c54d480e2032b7e03104c8332a -> 
+  custom:scripting/monoscript/fileName/RiderStyles.cs: cd129c7ac3790ffa53f73149c91a781a -> 871a958d95b29e48af876a5d411c626a
+  custom:scripting/monoscript/fileName/GUIDProvider.cs: 7908ce21a0551f501997ec920c162534 -> 3e1b7e2f9f1116bc475fe8e583750bd5
+  custom:scripting/monoscript/fileName/PostProcessingInspector.cs: b617eaa0b6e3e752eaf9e9a89203dc82 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModelEditor.cs: 0f2b80733b1449af72ed38ee469e2a30 -> 
+  custom:scripting/monoscript/fileName/PostProcessingBehaviour.cs: b0fbf7f67aeee9a6f7db03386dbc8c1e -> 
+  custom:scripting/monoscript/fileName/TrackballGroupDrawer.cs: 36f1db6df3ee9bb6e23950968f1fa293 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsEditor.cs: 315fb7cf21f3f53a30e4961d88029d42 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionComponent.cs: 79ad7ef64576d014e73a91b6c3af0688 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationComponent.cs: 0cb2aaf8cdc20c0baee2205168cbc73c -> 
+  custom:scripting/monoscript/fileName/GrainModelEditor.cs: fc1fd3126ff1a32e5c9c0211f235c203 -> 
+  custom:scripting/monoscript/fileName/GetSetDrawer.cs: 19bba8dcf0569bc9ff3f3eb8733c91d8 -> 
+  custom:scripting/monoscript/fileName/MotionBlurModel.cs: 4e24ef1d444a45a9e0056ed75c7c7eb7 -> 
+  custom:scripting/monoscript/fileName/BloomModel.cs: b4ba3e478c2698eb99512ead9d78d360 -> 
+  custom:scripting/monoscript/fileName/FxaaComponent.cs: 9d1fd3efb92e1fef6fd176ee45003f08 -> 
+  custom:scripting/monoscript/fileName/GrainModel.cs: ce4589c9bbcb55f8f632b6617dc5d1f0 -> 
+  custom:scripting/monoscript/fileName/PostProcessingComponent.cs: 85236d6b86a55b2f46a14367ab625049 -> 
+  custom:scripting/monoscript/fileName/IGUIDGenerator.cs: 153317bb7bf55f081a729ef02e3a13bd -> bad2c2e3b2dbec33c36bdfd6fc903e19
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x30a737000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.325 seconds
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.262 seconds
+Domain Reload Profiling: 587ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (97ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (262ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (117ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (76ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 772 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10 unused Assets / (24.8 KB). Loaded Objects now: 1284.
+Memory consumption went from 104.1 MB to 104.1 MB.
+Total: 2.103209 ms (FindLiveObjects: 0.049292 ms CreateObjectMapping: 0.012875 ms MarkObjects: 2.002000 ms  DeleteObjects: 0.038292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BloomComponent.cs: 755f611bb4d32a54d162192a9fc6dd86 -> 
+  custom:scripting/monoscript/fileName/MotionBlurComponent.cs: 6cf5a99eefa473d803af3e64f841a0a6 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditor.cs: 5454250018fe1f45305c6e2bbb867603 -> 
+  custom:scripting/monoscript/fileName/RiderAssetPostprocessor.cs: e6ad4f374cd20986773f123ef82b628b -> e95044eb94149eee30f5192e36c02104
+  custom:scripting/monoscript/fileName/SerializableVersion.cs: 37d1dc623e9e336a7d92f02239a5eea0 -> 66cf30c0372dc35aea960f71af56ff8a
+  custom:scripting/monoscript/fileName/PostProcessingMonitor.cs: d1e07bd8dc8b5f2f5124f2514220156a -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/RiderInitializer.cs: 68ef77945a5c56741cb9a0219dfe7657 -> d44ce07d40dcd4d066b6c1c8d08f3519
+  custom:scripting/monoscript/fileName/TestsCallback.cs: 6648df980912e96eaae5c39374242936 -> 420027d2a6ccaf7376f849b0f965edcd
+  custom:scripting/monoscript/fileName/ProjectPart.cs: fa153b81a1be75d157e4b8a3e4771fc2 -> e09789f5d21ec839c23f3a2c8c340a5a
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsComponent.cs: 1b8215a7f6eae55c3fc6a97379498db3 -> 
+  custom:scripting/monoscript/fileName/TestEvent.cs: 600966b5c87333333e8aa4555a03efa6 -> ff94f6973aa3f0db280f3ed0b7577e48
+  custom:scripting/monoscript/fileName/SolutionGuidGenerator.cs: fff5e43ac88ff72f14745857eb692caa -> 39a21c4f5e351b9b4a2916e800641a4a
+  custom:scripting/monoscript/fileName/DitheringModel.cs: fa99c50231ddc7ca26b5d6c9a68b4b31 -> 
+  custom:scripting/monoscript/fileName/PackageManagerTracker.cs: 6b4f549427cfb6e5a3495618f2118a44 -> 651bbc6653e509037fd83f80aa48fad7
+  custom:scripting/monoscript/fileName/IFileIO.cs: f591b2fd0e7a5b3d1b89896fce5380e7 -> d1715877724f6e7813b95bae6fbc24d5
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: a0d3abed53c1ab486b2b816d527a8c92 -> 2bbfb8fc762d145b0b8f0404790fa10d
+  custom:scripting/monoscript/fileName/MaterialFactory.cs: 39b00f1518fc675c62e508eb4bdec486 -> 
+  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: 208c293eec47ebea88bea24abfda77aa -> 
+  custom:scripting/monoscript/fileName/MotionBlurModelEditor.cs: 214d77ab75c222685eecaec8c6aed3b0 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorDataPersisted.cs: 86b94c4c59f51e667ab7e1f2d997c184 -> 93e7c36b8be60b7055550adb6ace534f
+  custom:scripting/monoscript/fileName/RiderPathUtil.cs: b3d293b09b57cc7b91d500a8b861ad70 -> a77167e74e3a3d01856e2c8265c09e64
+  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: 4b6bc01a6288a606d1a3fe94f621633b -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModel.cs: ac26bcd19cab8c88e9b65cb75ee1c356 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RiderMenu.cs: 2f14cf7eed9a2ad63962ab0ec2641b7b -> a430c0ff873704a92fbd3fa96f173c8d
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/ColorGradingComponent.cs: fc28099e3cee649b1f5925a07b57ea96 -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: 3ec1a95fcab585aeb5b64b4a7e03330a -> b2548d11c5a56238ffab3a68b5dcee26
+  custom:scripting/monoscript/fileName/EditorPluginInterop.cs: 1a28103090f24bb43afd0997a69f9b48 -> 087796556f1ed2025e28209e52d82ccc
+  custom:scripting/monoscript/fileName/TrackballAttribute.cs: f1962deba67196a6cd6b7953be1caf36 -> 
+  custom:scripting/monoscript/fileName/UserLutModel.cs: ce559ad59b29fc066f37249281afd441 -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionComponent.cs: ae5a7089fb97a5a97a8f11138ce7c9d2 -> 
+  custom:scripting/monoscript/fileName/PostProcessingProfile.cs: e94a21971fab43a541218a4f91e0403c -> 
+  custom:scripting/monoscript/fileName/GraphicsUtils.cs: f7df21c2acb52bb931f99c0a424b6be0 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldComponent.cs: b0afd8f8844e3e4017df6130c14d0dfc -> 
+  custom:scripting/monoscript/fileName/EditorResources.cs: 9f83d1aedff2fa20e157243f0913ea0e -> 
+  custom:scripting/monoscript/fileName/MinAttribute.cs: 941c73502025168e3301edfeaed1b25e -> 
+  custom:scripting/monoscript/fileName/GrainComponent.cs: fae958f48caa0fab6bcf7f9c48b915e1 -> 
+  custom:scripting/monoscript/fileName/ColorGradingModelEditor.cs: d8393f813d799206976f65da1ab781ef -> 
+  custom:scripting/monoscript/fileName/ColorGradingCurve.cs: e1e989893ee31e7801923212f0468312 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModel.cs: 325b0130eaada61513aeac7b8c97a9d7 -> 
+  custom:scripting/monoscript/fileName/UserLutModelEditor.cs: 342104b23101d3bfd45391c0769a34cf -> 
+  custom:scripting/monoscript/fileName/FogComponent.cs: 2dfe6d4c859eabd11b82ff8fc7d7ad22 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationModel.cs: 3f166f1ecbc6f39ed2f6b10cbc5b4ba4 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsModel.cs: 4a09809f2c0ed6cca27229b06ce1d289 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VignetteModel.cs: ab6733272f937ac0155aab47b4a8e58e -> 
+  custom:scripting/monoscript/fileName/RenderTextureFactory.cs: b11bc916a1a88ed67d986ee69a536511 -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditorData.cs: ac763da56c18afcbbc99b7cf67651110 -> fb9aed0c9d95878995d450a00d549f78
+  custom:scripting/monoscript/fileName/FogModelEditor.cs: 64b75506b78e4411272a1d25aff5dcfd -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModel.cs: 5bcc92c7d981d480ed07d6af7dd1a959 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModelEditor.cs: 7f4dd9c1675fb2cce031c62e047539ef -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModelEditor.cs: 99a92cb6d65b3a11adad7b285256ee66 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModelEditor.cs: ee1343b3ceaceb2c63bf272baf871cbd -> 
+  custom:scripting/monoscript/fileName/Discovery.cs: b8d0211ead4eaec682b9d12d86ef1994 -> 6c003b3862e6a4a3190ec655cba01f40
+  custom:scripting/monoscript/fileName/VignetteComponent.cs: 293deb083808f71d2d18d818ef588272 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditorAttribute.cs: 84467b1ef2082fe26f00bdedc34db836 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunCallback.cs: 6109fbb45740725119ed9609ae2cb6ab -> 0f406f4b09f3b7bd1bfd8f867df2e978
+  custom:scripting/monoscript/fileName/DefaultPostFxModelEditor.cs: e4be4b1d308934dee3a6a91920dc1b3d -> 
+  custom:scripting/monoscript/fileName/ReflectionUtils.cs: 14b4c7d2cdf78d9b158d00fb2c3c24b2 -> 
+  custom:scripting/monoscript/fileName/CallbackInitializer.cs: d227e453fc55ff33477a0f8f90826257 -> b6cad195ed4890ee7aed8c4de2807157
+  custom:scripting/monoscript/fileName/FogModel.cs: c4cd4da1fb97c7abf787083602f52bf5 -> 
+  custom:scripting/monoscript/fileName/MinDrawer.cs: f0b5a34ad7cefeba48c04a270d4abfc9 -> 
+  custom:scripting/monoscript/fileName/RiderTestRunner.cs: a09449e7603772ef60589c92d46be0c3 -> b9ea3ff0565ae2955ea8f15dd6e578d4
+  custom:scripting/monoscript/fileName/TaaComponent.cs: 7c343e97072a6712c3a2b01e75fdb7fa -> 
+  custom:scripting/monoscript/fileName/PostProcessingFactory.cs: f4e35cbabcf5e0add8e963bb8ab175b2 -> 
+  custom:scripting/monoscript/fileName/SyncTestRunEventsHandler.cs: a9e2807330a6f2c36d667ee1a2c4f414 -> 9ebe337aca2d71ac02fccc5c886e0668
+  custom:scripting/monoscript/fileName/WaveformMonitor.cs: fa17c20b734d78632b46f64cd9d4f8c6 -> 
+  custom:scripting/monoscript/fileName/ParadeMonitor.cs: cae69c77ac3a6bd03788e390b0793dce -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/StringUtils.cs: 200f5307597eeab8c00b86aef1ee800c -> 2be5fb51e6f0660c955416f4d8f6f7ad
+  custom:scripting/monoscript/fileName/DitheringComponent.cs: 83d905897534466960141b85361bb6b4 -> 
+  custom:scripting/monoscript/fileName/ExampleWheelController.cs: 9600d370c57ff0da5766666ba4365a29 -> 
+  custom:scripting/monoscript/fileName/BloomModelEditor.cs: 82667d6cbb2e9deab73f43bddd4cb3ad -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GetSetAttribute.cs: b786c1938e0c0f5ecaf463807c2d7653 -> 
+  custom:scripting/monoscript/fileName/CommandLineParser.cs: a5ce035a20fc026f12db6b796b898d65 -> 25c8ce1c1ecf3aba3903da1187b88166
+  custom:scripting/monoscript/fileName/DepthOfFieldModel.cs: ab243c09a4b44fd7a53f73051db01cbc -> 
+  custom:scripting/monoscript/fileName/RiderScriptEditor.cs: 4a0f526f1b31c7d9c331714a284a6791 -> 4ddd2581343451de6f696adaf8c0958f
+  custom:scripting/monoscript/fileName/HistogramMonitor.cs: 89c185ea097a2554de07760bc4248c43 -> 
+  custom:scripting/monoscript/fileName/FxStyles.cs: 82e974921467cb55809ecad82f38f7ca -> 
+  custom:scripting/monoscript/fileName/FileIOProvider.cs: 86c8e5e2df704262ebd9971ddef53615 -> 93247588b72fb2c2d642acc7359e639c
+  custom:scripting/monoscript/fileName/PostProcessingBehaviourEditor.cs: 066ae7bf767a73228aa8d9e772743d81 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModel.cs: 2f64caba6afa59bc78865f13b6f9065d -> 
+  custom:scripting/monoscript/fileName/PluginSettings.cs: 727424108b6598a2387dd87fa5ed687f -> 4ee82f9c59f87f1dece05e6b9763c365
+  custom:scripting/monoscript/fileName/PostProcessingContext.cs: be8a0bc1565c6324b1fd40a33f66279b -> 
+  custom:scripting/monoscript/fileName/LastWriteTracker.cs: e117305b6c922c0adb79679b01fac2c8 -> c78bd5b4fa28ac60ca7ed50f9c2b99d2
+  custom:scripting/monoscript/fileName/FileSystemUtil.cs: 6856b263874916a35e9cabf0faa6bad8 -> 3a1d37ca0015bdfbd542c903cf738043
+  custom:scripting/monoscript/fileName/ColorGradingModel.cs: d1c2ef15f5e9e4868052777d51361b40 -> 
+  custom:scripting/monoscript/fileName/EditorGUIHelper.cs: 4a11466b474c4ddf8b0e969391a97509 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldModelEditor.cs: c9db63f1a070d3e8ad359080de3aa855 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationComponent.cs: cda95994b71ba23d0c0f0fe0f241aab9 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModel.cs: 507d9c80d381478e1c14f5bfe34012ae -> 
+  custom:scripting/monoscript/fileName/VignetteModelEditor.cs: e544ec17c4d10dc7a011d82b890e61d2 -> 
+  custom:scripting/monoscript/fileName/IGenerator.cs: e53c624814a84a932e0860f584f7deb9 -> 7460422a7cf0a449df86606b185ffb0e
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/UserLutComponent.cs: 944143ce5f543a40c92ecea777f35ae4 -> 
+  custom:scripting/monoscript/fileName/IAssemblyNameProvider.cs: de79d586ca221e8ac344be669ec25f7e -> 005dc9d9c07dc825fea94e0fbc841e20
+  custom:scripting/monoscript/fileName/LibcNativeInterop.cs: c73f097a3ef89ebf41e7633fc6e71aff -> 77c1db6bef2e1063dc874463b520ed18
+  custom:scripting/monoscript/fileName/CallbackData.cs: 244f50edb9a06e595eeca45abc022db5 -> b15b13425eedd78fb5c4fc4930a9e8b4
+  custom:scripting/monoscript/fileName/StartUpMethodExecutor.cs: ecce11359b7760342ad14bc80bad2220 -> 45cc23141d36926881d69e4d2f8950c7
+  custom:scripting/monoscript/fileName/CurveEditor.cs: 6cba1958072d99c0ff92650cfaf3fa87 -> 
+  custom:scripting/monoscript/fileName/TrackballGroupAttribute.cs: 6d071733b141a3fb3360b110560ed1cc -> 
+  custom:scripting/monoscript/fileName/DitheringModelEditor.cs: 98ce08c54d480e2032b7e03104c8332a -> 
+  custom:scripting/monoscript/fileName/RiderStyles.cs: cd129c7ac3790ffa53f73149c91a781a -> 871a958d95b29e48af876a5d411c626a
+  custom:scripting/monoscript/fileName/GUIDProvider.cs: 7908ce21a0551f501997ec920c162534 -> 3e1b7e2f9f1116bc475fe8e583750bd5
+  custom:scripting/monoscript/fileName/PostProcessingInspector.cs: b617eaa0b6e3e752eaf9e9a89203dc82 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModelEditor.cs: 0f2b80733b1449af72ed38ee469e2a30 -> 
+  custom:scripting/monoscript/fileName/PostProcessingBehaviour.cs: b0fbf7f67aeee9a6f7db03386dbc8c1e -> 
+  custom:scripting/monoscript/fileName/TrackballGroupDrawer.cs: 36f1db6df3ee9bb6e23950968f1fa293 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsEditor.cs: 315fb7cf21f3f53a30e4961d88029d42 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionComponent.cs: 79ad7ef64576d014e73a91b6c3af0688 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationComponent.cs: 0cb2aaf8cdc20c0baee2205168cbc73c -> 
+  custom:scripting/monoscript/fileName/GrainModelEditor.cs: fc1fd3126ff1a32e5c9c0211f235c203 -> 
+  custom:scripting/monoscript/fileName/GetSetDrawer.cs: 19bba8dcf0569bc9ff3f3eb8733c91d8 -> 
+  custom:scripting/monoscript/fileName/MotionBlurModel.cs: 4e24ef1d444a45a9e0056ed75c7c7eb7 -> 
+  custom:scripting/monoscript/fileName/BloomModel.cs: b4ba3e478c2698eb99512ead9d78d360 -> 
+  custom:scripting/monoscript/fileName/FxaaComponent.cs: 9d1fd3efb92e1fef6fd176ee45003f08 -> 
+  custom:scripting/monoscript/fileName/GrainModel.cs: ce4589c9bbcb55f8f632b6617dc5d1f0 -> 
+  custom:scripting/monoscript/fileName/PostProcessingComponent.cs: 85236d6b86a55b2f46a14367ab625049 -> 
+  custom:scripting/monoscript/fileName/IGUIDGenerator.cs: 153317bb7bf55f081a729ef02e3a13bd -> bad2c2e3b2dbec33c36bdfd6fc903e19
